@@ -1,17 +1,11 @@
 /* UPDATED July 31, 2018*/
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: sans-serif
 }
 html {
   margin:    0 auto;
   max-width: 900px;
-}
-p {
-  text-align: justify;
-  line-height: 30px;
-  background-color: white;
-  background-clip: text;
 }
 h1 {
   text-align: center;
