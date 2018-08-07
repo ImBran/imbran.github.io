@@ -9,21 +9,16 @@ html {
 p {
   text-align: left;
   line-height: 30px;
-  background-color: white;
+  background-color: inherit;
   background-clip: text;
 }
-h1 {
-  text-align: center;
-}
+h1 {text-align: center}
 h2 {
   text-align: center;
   color: gray;
   padding-top: 40px;
 }
-h3 {
-  font-size: x-small;
-
-}
+h3 {font-size: x-small}
 .mainPhoto {
   opacity: 0.1;
   max-width: 100%;
@@ -36,16 +31,12 @@ h3 {
   opacity: 0.1;
   max-width: 50%;
 }
-.footerText {
-  font-size: small;
-}
+.footerText {font-size: small}
 .bottomNav {
   text-align: center;
   padding: 50px;
 }
-.resourceText {
-  background-color: ghostwhite;
-}
+.resourceText {background-color: ghostwhite}
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,9 +44,7 @@ ul {
   overflow: hidden;
   background-color: lightgray;
 }
-li {
-  float: left;
-}
+li {float: left}
 li a {
   display: block;
   color: white;
@@ -63,9 +52,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
-  background-color: black;
-}
+li a:hover {background-color: black}
 .banner {
   opacity: .1;
   max-width: 20%;
@@ -74,17 +61,7 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.blogNav {
-  font-size: small;
-  background-color: lightgray;
-  color: white;
-  padding: 14px 16px;
-}
-.blogNav a {
-  color: white;
-  text-decoration: none;
-}
-/*new dropdown blog nav*/
+/*new dropdown blog nav, 87-120*/
 .dropbtn {
     background-color: lightgray;
     color: white;
@@ -117,10 +94,6 @@ li a:hover {
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+.dropdown:hover .dropdown-content {display: block}
 
-.dropdown:hover .dropbtn {
-    background-color: black;
-}
+.dropdown:hover .dropbtn {background-color: black}
