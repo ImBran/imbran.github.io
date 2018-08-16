@@ -43,7 +43,7 @@ li a:hover {
 }
 #mainPhoto {
   opacity: 0.1;
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
