@@ -1,7 +1,7 @@
 * {
   box-sizing: inherit;
   font-family: monospace;
-  color: darkgray;
+  color: black;
   font-size: large;
 }
 html {
@@ -53,7 +53,10 @@ li a:hover {
   text-align: center;
   padding: 50px;
 }
-#highlightedItem {background-color: ghostwhite}
+#highlightedItem {
+  background-color: ghostwhite;
+  text-align: center;
+}
 
 #content {
   text-align: justify;
@@ -63,14 +66,26 @@ li a:hover {
   padding-bottom: 65px;
 }
 #cssmenu {
-       position:fixed;
-       top: 0;
-       margin:auto;
-       left: 0;
-       right: 0;
-       width: 100%;
-       opacity: .8;
+  position:fixed;
+  top: 0;
+  margin:auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: .8;
 }
+#blognav {
+  padding-bottom: 20px;
+}
+/* Hover over, secret text*/
+.hovertext {
+    display: none;
+}
+
+p:hover .hovertext {
+    display: inline-block;
+}
+/*^^*/
 /* code for portraits.html */
 div.gallery {
     border: 1px solid #ccc;
