@@ -54,8 +54,10 @@ li a:hover {
   padding: 50px;
 }
 #highlightedItem {
-  background-color: ghostwhite;
+  outline: 1px solid black;
+  opacity: .5;
   text-align: center;
+  background-image: linear-gradient(white,white,ghostwhite);
 }
 
 #content {
@@ -68,14 +70,15 @@ li a:hover {
 #cssmenu {
   position:fixed;
   top: 0;
-  margin:auto;
+  margin: auto;
   left: 0;
   right: 0;
   width: 100%;
   opacity: .8;
 }
 #blognav {
-  padding-bottom: 20px;
+  position: static;
+  width: 100%;
 }
 /* Hover over, secret text*/
 .hovertext {
@@ -86,50 +89,3 @@ p:hover .hovertext {
     display: inline-block;
 }
 /*^^*/
-/* code for portraits.html */
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
