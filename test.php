@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- UPDATED JULY 31 2018, Brandon Marcelle -->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Brandon Marcelle, whoami</title>
+    <title>Brandon Marcelle</title>
   </head>
 
   <body>
@@ -19,10 +18,9 @@
       </ul>
     </div>
     <div id="content">
-      <article>
-      <p>Hello, I'm Brandon Marcelle.</p>
-      <p>I am an IT professional located in Southeastern Pennsylvania, currently looking for career placement. I hold an A.A.S. with honors, in Computer Science from Pennsylvania Institute of Technology, focusing on computer communication technologies and software management. I am currently persuing ACMT certification and learning how to code Javascript and Python.</p>
-      <p>Aside from that, I am a husband and father. I am a musician and enjoy reading, meditation, drinking coffee and exploring the complexities of the machines that we rely on everyday.</p></article></div>
+      <p>Your IP address is: <? echo $_SERVER["REMOTE_ADDR"]; ?></p>
+
+    </div>
     <hr>
     <div id="bottomNav">
       <a href="https://lobste.rs/u/Bran" target="_blank">lobsters</a>    |
