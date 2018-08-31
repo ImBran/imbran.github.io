@@ -79,6 +79,8 @@ li a:hover {
 #blognav {
   position: static;
   width: 100%;
+  color: black;
+
 }
 /* Hover over, secret text*/
 .hovertext {
