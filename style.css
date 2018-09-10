@@ -19,7 +19,7 @@ a {
 
 }
 .bgimg-1 {
-  background-image: url("psycho1.jpg");
+  background-image: url("crazy.jpg");
   min-height: 900px;
 }
 
@@ -35,7 +35,7 @@ a {
 
 .bgimg-4 {
   background-image: url("psycho1.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .caption {
