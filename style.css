@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -28,7 +28,18 @@ a {
   background-image: url("banner.jpg");
   min-height: 400px;
 }
+.blog {
+  background-image: url("banner.jpg");
+  min-height: 600px;
+}
+.blogSep {
+  background-image: url("banner.jpg");
+  min-height: 100px;
+}
 
+.blogNav a {
+  color: black;
+}
 .bgimg-3 {
   background-image: url("projects.jpg");
   min-height: 400px;
@@ -36,7 +47,7 @@ a {
 
 .bgimg-4 {
   background-image: url("trail.jpg");
-  min-height: 40%;
+  min-height: 500px;
 
 }
 
