@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep, .projects, .projectsSep {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep, .projects, .projectsSep, .contactme, .contactmeSep {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -43,7 +43,14 @@ a {
   background-image: url("projects.jpg");
   min-height: 100px;
 }
-
+.contactmeSep {
+  background-image: url("trail.jpg");
+  min-height: 100px;
+}
+.contactme {
+  background-image: url("trail.jpg");
+  min-height: 600px;
+}
 .blogNav a {
   color: black;
 }
