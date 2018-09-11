@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep, .projects, .projectsSep {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -16,7 +16,6 @@ body, html {
 }
 a {
   color: white;
-  font-weight: bold;
 
 }
 .bgimg-1 {
@@ -32,8 +31,16 @@ a {
   background-image: url("banner.jpg");
   min-height: 600px;
 }
+.projects {
+  background-image: url("projects.jpg");
+  min-height: 600px;
+}
 .blogSep {
   background-image: url("banner.jpg");
+  min-height: 100px;
+}
+.projectsSep {
+  background-image: url("projects.jpg");
   min-height: 100px;
 }
 
@@ -47,7 +54,7 @@ a {
 
 .bgimg-4 {
   background-image: url("trail.jpg");
-  min-height: 500px;
+  min-height: 600px;
 
 }
 
@@ -77,7 +84,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
