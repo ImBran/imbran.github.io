@@ -24,7 +24,9 @@ body, html {
 }
 a {
   color: white;
-
+}
+a:hover {
+    color: orange;
 }
 .bgimg-1 {
   background-image: url("crazy.jpg");

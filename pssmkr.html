@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="pssmkr.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>BRANKM PSSMKR</title>
+</head>
+<body>
+  <div class="bg-image"></div>
+  <div class="mainwin">
+    <h2>PSSMKR Secure Password Generator</h2>
+    <p>Your New Randomly Generated passhrase codes are:</p>
+    <p id="pss"></p>
+    <p>Match codes to their phrases <a href="https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt" target="_blank">here.</a></p>
+    <p><small><a href="https://ssd.eff.org/en/module/creating-strong-passwords" target="_blank">Learn more</a></small></p>
+  </div>
+<script>
+let r1=Math.floor(Math.random() * 6 + 1).toString();
+let r2=Math.floor(Math.random() * 6 + 1).toString();
+let r3=Math.floor(Math.random() * 6 + 1).toString();
+let r4=Math.floor(Math.random() * 6 + 1).toString();
+let r5=Math.floor(Math.random() * 6 + 1).toString();
+let ar1=r1+r2+r3+r4+r5;
+let r21=Math.floor(Math.random() * 6 + 1).toString();
+let r22=Math.floor(Math.random() * 6 + 1).toString();
+let r23=Math.floor(Math.random() * 6 + 1).toString();
+let r24=Math.floor(Math.random() * 6 + 1).toString();
+let r25=Math.floor(Math.random() * 6 + 1).toString();
+let ar2=r21+r22+r23+r24+r25;
+let r31=Math.floor(Math.random() * 6 + 1).toString();
+let r32=Math.floor(Math.random() * 6 + 1).toString();
+let r33=Math.floor(Math.random() * 6 + 1).toString();
+let r34=Math.floor(Math.random() * 6 + 1).toString();
+let r35=Math.floor(Math.random() * 6 + 1).toString();
+let ar3=r31+r32+r33+r34+r35;
+let r41=Math.floor(Math.random() * 6 + 1).toString();
+let r42=Math.floor(Math.random() * 6 + 1).toString();
+let r43=Math.floor(Math.random() * 6 + 1).toString();
+let r44=Math.floor(Math.random() * 6 + 1).toString();
+let r45=Math.floor(Math.random() * 6 + 1).toString();
+let ar4=r41+r42+r43+r44+r45;
+let r51=Math.floor(Math.random() * 6 + 1).toString();
+let r52=Math.floor(Math.random() * 6 + 1).toString();
+let r53=Math.floor(Math.random() * 6 + 1).toString();
+let r54=Math.floor(Math.random() * 6 + 1).toString();
+let r55=Math.floor(Math.random() * 6 + 1).toString();
+let ar5=r51+r52+r53+r54+r55;
+let r61=Math.floor(Math.random() * 6 + 1).toString();
+let r62=Math.floor(Math.random() * 6 + 1).toString();
+let r63=Math.floor(Math.random() * 6 + 1).toString();
+let r64=Math.floor(Math.random() * 6 + 1).toString();
+let r65=Math.floor(Math.random() * 6 + 1).toString();
+let ar6=r61+r62+r63+r64+r65;
+let allRolls = ar1+" "+ar2+" "+ar3+" "+ar4+" "+ar5+" "+ar6;
+document.getElementById("pss").innerHTML = allRolls;
+</script>
+
+</body>
+</html>
+<!--
+A Diceware theory JS Secure Password Generator
+
+<p>Welcome to BRANKM pssmkr, a 'Diceware' randomly-generated passphrase  designed javascript Password Generator. Read more about the list here (https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) </p>
+
+-->
