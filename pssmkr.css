@@ -32,7 +32,7 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 60%;
+  width: 80%;
   padding: 20px;
   text-align: center;
 }
