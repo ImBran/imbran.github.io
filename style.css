@@ -23,7 +23,8 @@ body, html {
 
 }
 a {
-  color: white;
+  color: aqua;
+  text-decoration: none;
 }
 a:hover {
     color: orange;
