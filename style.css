@@ -31,7 +31,7 @@ a:hover {
 }
 .bgimg-1 {
   background-image: url("crazy.jpg");
-  min-height: 900px;
+  min-height: 100%;
 }
 
 .bgimg-2 {
