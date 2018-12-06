@@ -1,42 +1,3 @@
--/:so+soyoyyh+-s-yhsoosohsysoyyyhyyddhddmhhhsommmhsyyNNmohshdyhNNhdhhdNMMMmMMMMMMMMMMMMMMMMMMMMNNMMN
-`:+o.ohhdddmoyyooyss+://++/:--/::::/odNNNNMyoso++-/:yNMdoyyNshNNMhhhMNdmmNMMMMMMMMMMMMMMMMNMMMmhNNMN
-`../:yhyoshyysoyyso:......-..-..-//++sydNNNmdmhhy+hydNd+:mdNdNMMNmmNssmNMMMMMNMmhmNhmMMMMMMMMMMNdMMM
-/:::o:oNNhdohhss+-.``````````````..:osymNdNMmm/yhNdyhmmy+odMMNNMNhNmhydNNMMMmhosmMMMMMMMMMNMMNMMNMNM
-:++++osshddydmso+.````````````````.--:+ymNmhdhmMdmosmdys:hMNMmMMMNss:/oNMMMshmNmNMMNdmmNMMMMNMNMmNmN
-hs/:+-::/sdddys+.`````````````....----://sNm+mdmNmyNNmMNNNmmMhdMNoso/hNMMddNMNNMMMMNNNNNNNNNdmNNhhhd
-+md/o:.oysdysyo-.```````````...-------:://sNMNdmmMNNy+hhmdhmMMNMmmsodMNMmmNMMNNNNMMMMNNNNNmmmdmmdhmm
-mmho/:oshyhs+s/..```````````..--::::::::://hMMN:-+/+/---:/+yydNNNmNmMMMMNMMNNNNNMNMNNNNNmNmdsoymyooh
-hdsmNhsNdddosos+osossso+/:-.-----:::::::///sd/yos:....`-/++ossyddNMNMMNNNNNmNNNMNMNNNdhddmmys-::/+sd
-syho+ydmdms-/yNo:sNmhmNNNNNNmhs+//::::::///sNdyhhs/.```..-://++shhhNMNNNNNNNNNMMNNNNmmdmNyoo/++:+:/-
-mddhsdNNdh--`:s+-.NhmNNNNNNNNNMMMNNmNNNNmmdmMNdhs+/-``````..-::/+sysymmmNNMMNmmmysdNmmdNNyo/yhmdds:`
-yyyyhsysys-...``..hNNmmNNNNNNNMmymMNNNNNNNNMMNms+:-..````....--:::+++yydmmmmmms/os+shdmdd+///:/:o/.`
-++dyddhmydo.-.````:ddmdmNNNNNMNs:+NMNNNNNNNMMMdyo/-...``...----:/---/oossoyhss/+/:+ohyoos/-::oso:.``
-ohsymdNmh:.````````./shmmmmhoo+..:hMNNNNNmNMMmdys+:--.....------/::--:/+ohyshmhooyysyy+---:+hy/.````
-shdommNNs//```````````.-/---`...-:+hdNNNNNNMNdhyo/:----...-----:+//:-/o+shdyoohdyhss---::://-``````.
-odyhoy:/:-o`.``````..--:/++-..----/o++ooooyMMNdysoooo+/:/+//+o+//oo/::/+osho/+oo:-:/s++:..```````.-:
-+oo++o/:ossho````.---::+so//++/::/++o:::/+mMMNhhhdho+oNdmy//::::-:/++/:::++::-::/+ys/-.`````..:os+//
-ohNNdyymdyos-````.--::+so///////+ooss/://shmNmss+/:::+h--s+-.....+:ssho:-:/:/+:---..``````.-:/ydmh/+
-hhhmdNNhds-``````...-/odmdhyo/+/+syo+//+sddmmhy+:::/+s:.../+/:::---odhos-.......````````.-/++oydmmoo
-s---/s/.```````.``..-ooy+/oymdhyhmy+//ohmmmmmho+//:-::::-------.--+yhhohs-..``````````.-:-:+soydmmsh
-yo-`````..``````.`..-+//..-/s/++s++/ohNNmmNMNds+/--::----:-:-:---::+yho/--/ooo/:.`..`....:/ydhyhdmNM
-...```--:-...```.....::-.`.:+:/+o/+sdNMMMMMMMMh+/:-/yyysysyNo---......-++oyhdddhy/:..`.-:shhdddmNNMM
-```.--..--....``.---....-.-++/-+/+hmMMMMMMMMMMMh+:-:yyyysoo+---+so:ooshhhhhyhhhsyhs//+oyyhhhdmMMMMMM
-`````..--:.-`....-///....-/+++++smNNMMMMMMMMMMMMms/:::::::--.-ydhyshssmmmdysyyysssdddhyysymNMMMMMMMM
-``````..--..`.:.--/+++:-.-:/+oshNNNNMMMMMMMMMMMMMNds/::---..:/omNNhddhmNNmddddhyyhhdyydmNMMMMMMMMMMM
-````..--..--.`:/.:+ssoooossyyhdmmmmNNMMMMMMMMNMMNmmmmhsoosymmNMMMMMMMNmNMNNmmNmmhhhhdNMMMMMMMMMMMMMM
-.--------.`.-..o+-+yhhysssssyyhmmmmmNMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNmNNMMMMMMMMMMMMMMMMMM
---::/:----.`.:-:s+-yhhhyysyyhhddmmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdsydNMMMMMMMMMMMMMMMMMMMMMM
-/+sy+:-----...//:s+/hyhhhhyyyhddmmmNNMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdyyh+`..:dMMMMMMMMMMMMMMMMMMMMM
-/yos++::------.o++s+shhyhhhyhdmmmmNNNNNNMMMMMMNNNNMMMMMMMMMMMMMMMMMM+````.--::.oMMMMMMMMMMMMMMMMNmdd
-os/yoo::::::::-:ysyssyyyyyyhhhhddmmmmNNNNMMNdhhddmNMMMMMMMMMMMMMMMMMs``.-.-//-:-+NMMMMMMMMMNms/-```.
-oyoss+--:::::::/yyssssyyyyyyhhhhdddmNNNNNNMmddmNNmmNNMMMMMMMMMMMMMMNN+```-.::-::osNMMNNmhh+:.```````
-syoso:---:::::::yyosssyyyssyyhhhhhdmNNNNmNmddhdmmNNNNMMMMMMMMMMMMMNNNmy/``.-:/h//ysddmmssy+-````````
-yss/-------:::::shsssssyyssssyhhhddNNNNNNNmdhddmmmmNNNNMMMMMMMMMMNmNNNNmh/`/yo/so/s/+dy://:`````````
-/:----------::::yyossssysyssyyhhhdmmNMMMMNmdddddmmmmmNNMMMMNNNNNmmNNMNNNNNdsssoo+/.``-hyo-```..`````
-/::--...-------/yyoyssssssssyyymddmNMMNMMMNhddmdddmmmmmNNMMNNNNmmmNNMNNNNmNNNNmh:.````yd-.`````````.
-so+:---.------:shysssssyyssyNdhhdNMMMNNmNMMhhddmNNmddmmNNNMMNMNNNNNMMNNNNNNNmNNNNNNho/dNy-``````````
-
-
 WHOAMI
 https://imbrankm.com
 
@@ -44,79 +5,10 @@ Hi, I'm Brandon K. Marcelle. I am an IT professional located in Southeastern Pen
 
 Personally, I am a husband and father to a beautiful family. When I'm not spending time with my family or working, I write music with my lifelong best friend. I enjoy drinking coffee and exploring the complexities of the machines that we rely on everyday.
 
-MMMMMMdMNMMMMdMMMmMMNdMMNNMMhNMNNmmds+++++hMMMMMMMmyhs.````````.........../mMMMMMMMMMMMMd+..........
-MMNNNMmNmdmmMdNMMNNNmyddhhyyooooo+++++++//sMMMMMMMMhyo:``````````...........oMMMMMMMMMMMNMdo/.``````
-mmNNNNhmmddhhysyssssooooooooooooo++++++++/oMMMMMMMMMMM+`````````````.........:mMMMMMMMMMMMMs+:``````
-dhhhhhhyhyyyyyssssssoooooooooo++++++++++///MMMMMMMMMMs````````````````.........yMMMMMMMMMMMmh/``````
-yyyyyyyyhyyyyyysssssooooooooo+++++++++++///mMMMMMMMNy````````````````````.......oMNmddhhhhdmmy``````
-yyyyyyyyyyyyyyyysssssooooooooo++++++++++///dMMMMMMm-h/````````````````````...-/oyyyyysso+//:--.``:/o
-yyyyyyyyyhyyyyyyyssssooooooooo+++++++++////yMMMNMMMy-h+.............``````.+yddmmdddddhhyyso+/:-../h
-hyyyyyyyyhyyyyyyyyssssooooooooo++++++++/////----sMMMs.+yss+//:///++oooo+/smmmmmmmmmNmmmddhyssoo/:-.`
-hhhhyyyyyhyyyyyyyysssssooooooooo++++++++////:----hMMMs-..-://+///::-..-oddmms+///+oydNMNNmdhysso+/:.
-hhhhhhhyyhyyyyyyyyysssssooooooooo+++++++////:-----hMMMNyssyyhddmNMMMMNmNMMMMMNMNdy+:--/odMMNdhysoo+/
-hhhhhhhhhhyyyyyyyyyysssssoooooooooo++++++///:.....-mMMMMMMMMMMMMMMMMMMMMMMNmNMMMMMMNdo+:-:sNMmhysoo+
-hhhhhhhhhhhyyyyyyyyyysssssooooooooooo++++++/:......sMMMMMMMMMMMMMMMMMMMMMMMMNdmMMMMMMMNho::/sNNdhsoo
-hhhhhhhhhhhhhyyhyyyyyyssssssoooooooooo++++++/.....-NMMMMMMds+smMMMMMMMMMMMMMMMMddmNNMMMMmy+//+hMmhss
-hhhhhhhhhhhhhhhhhhyyyyyysssssssooooooooo+++++.....sMMMMMs-.:dMMMMMMMMMMMMMMMMMMMMNdhdNMMymdo///sNmys
-hhhhhhhhhdhhhhhhhhhyyyyyyysssssssoooooooo++++:...-MMMMN:..:NMMMMMMMMMMMMMMMMMMMMMMNMNdmh++shhyo/oNdy
-hhhhhhhhhdhhhhhhhhhhyyyyyyyyssssssssooooooo++/...yMMMM+...mMMMMMMMMMMMMMMMMMMMMMMMNNMMMms//+ydyoosNh
-hhhhhhhhhdddddhhhhhhhyyyyyyyyyssssssssooooooo+...dMMMN---+MMMMMMMMMMMMMMMMMMMMMMNmMMMMMMMMds+ydhyohm
-dddhhhhhddddddddhhhhhhhyyyyyyyyyyssssssssooooo---+MMMN-::yMMMMMMMMMMMMMMMMMMMMMMMNmNMMMMMMMMNNNmhs/m
-ddddddddddddddddddddhhhysoo+++oossyyyssssssoy/---:oMMMs//hMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNMMMMNNNdy+y
-dddddddddddddddddyo/:-.---------...-/+ssso++:--:::/+dMMsohMMMMMMMMMNNMNNmNNMMMNNMMMMMNNNNMMMNNmdyyoy
-mmmdmmmmmmdddho/...----::::::::::----....------:://+oymMdhMMMMMMMmdmmMMMMMMMNmddmNMMMNMMMMMMMMNMmdhy
-yyymNdoo+++/:....----:::::///:::::::---....----::/++ooshNMMMMNNNMMMMMMMMMMMNNmmmNNMMMMMMMMMMMMNNmmhd
-:-/sy/----......---::///////////////::---..`.--::/+ooooshMMNMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMdys+m
-.....---.......--:://++++++++++++++++/::---...-::/++/:--...:odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyosh
-....--.``.....--://++++++++oooooooooooo+/:--...:::-....`````..+NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy/y/
-....-.``.....-:://+++++oooooosssyyhhhhhyso/--.`................+MMMMMMMMMMMMMMMMMMMMMNNMMMMMMmho:-.`
-...-````....-:://+++ooooossssyyhdddmmmmmmhy+--.`.......-:+ssso::NMMMMMMNNNNMMMMMMMMMNNNMMMMMmh+.````
-..-.````...--://++oooosssyyhhddmmmmmmmmNNmmh/-.``..-::/ossso+/:ohdmMMMNNNNNNNMMMMMNmNMMMMMmhs-``````
-
-
 BLOG
 https://imbran.github.io/blog.html
 
 This blog is technology focused, relating to my experiences professionally and personally. It explores topics ranging from Safari Extension Programming to setting up new computers.
-
-NMMMMMMMMMMMMMMMMMMMMMMMMMMMN+:/+osshdmdddmmmmNNNmmdy/mhdmNNNmmmmmNNNNmmmmmmmmNMMNhhhhyyyyyyyyyhyhhh
-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMs:+sshmmmmmmmmmNNNMMMNm+ymhdNNNNmmmmmmmmmmmmmmmmmNMMNyyyyyyyyyyyyyyyyyy
-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo/shmNNNNNNNNNNNNMMMmooNNNNNNmmmmmmmmmmmmmmmmmmmNMMmyyyysssssssssssyyy
-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy+ymNNNNNNNNNNNNNms/-:+ooydmmmmmmmmmmmmmmmmmmmmNMMdsssssssssssssssssy
-NMMMMMMMMMMMMMNNNMMMMMMMMMMMMMMMdsosyhdmmmmmdyso++///:--.-+dmmmmmmmmmmmmmmmmmmNMMhsoooooooooooooosss
-NMMMMMMNNNMMMMNNMMMMMMMMMMMMMMMMMds++++++++++++o++oymmhs/-.:mmmmmmmmmmmmddddddmNMms++++++++++oooooos
-NMNNMNNMMMMMMm/:/sydNMMMMMMMMMMMMNdhyo+////////++++yNNmmmh:/dmmmmmmmmmmmmmmmddmmNNNmddhhyyyssoooo++o
-MMMNNNNNNNNNh-......-/shmNMMMMMMMMNdyhdhs/////++++//syyyhysdmNmmNNNNmmmmmmmmmdddddmmmmmmmmmmmmmmmmmm
-NNNNMMNNNNNo-.....``....-:oydNMMMMMNmddhyy///+++oosyyyhhdmmNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddddddddddd
-NNNNNNNNNm/-....````.........-/shmNMNmdyso++++oosdNNNNNNNNNNNNNmmmmmmmmmmddddddddddddddddddddddddddd
-NNNNNNNNy:-....````.......```....-:ohmNmdhhyyhhmNNNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmdmmddddddddddddddddd
-NNh--://....``````....`:.````........-:+yhmNNNNNNNNNMMNNNNNNNNNNNNNNNNNNNmmmmmmmmmmmmddddddddddmmmmm
-Nm-``....``````````..`.`````..............-//++++++oooossssydmNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-m/`....````````````.```````....`..........................---+NNNNNNNNNNmNNNmmNmmmNmNmNmNmNNNNNMMNNM
-/`.....`````````..````````..```.........`.................---+NNNMNMMMMMNNMNNNMNMNMNMNMNNNNNNNNNNNmN
--.....`````````..````````..```......`..```.....-...........--oNNNMmNNMNNNNNNNmNmNmNmNNNNmNNNmMNNNNNm
--...``````````..```````...``.....`.`..`````.....-............:+shmmNMNNNMNMmMNNNNMNNNMmMmMmNmNNNNNNm
-..```````````....``````..``..`:os.`..``````..............-:-.-...:/sNMMmNNNmNNNNNNmNmNmNNNNmNNNmMNNm
-.``````````..`..```.``````..`.oNm-.````````.........-:/oydd+-....-:+NMMMMNNMNMmMmMmMNNNNMNMmMNMmNNNN
-.`````.````.`..```..`````..``-mMN:````````.....--:/ohddyo/---...--+dNNMMMNmNNNmNNNmmmNNmmNNmmmNNNmNm
-.````.``````.````.``````..```/NMd.``.```...-::+syddh+:-....-....-:mNNNMMMMMmMNNNNMNMmMNMNNMNMmMNMmNm
-.``..``...``````....```..```.yMMs``....-://syhhy+:-.``..........-dMNNNNNNMMNNNNNmNmNmNNmmmNmNmNmmNNm
-..-.```....`````..`..`..````-dMM/-::-:/+yhhs+:.``.````...-....-.hNNMmNNNNNNNNNmMNNNNMNMmMNMNNMNMmMNN
---.``.....```..`....`..```../NMN++++syyo/:.`````..```....``....sNNNMmMNNMMMMMMmNNNNmNNNdNNNmmNNNmNNm
--.``.....````.`..`.`.....--:sNMhyhyo/:.`````````````..`..``...oNNNNNmNNNNNNmNNNNNmNNNNNmmMMMMMMMMMMN
-.```...````.`..`.....-----:odNmy+:.`..``````````````.`..-.`../mmmmNNNNMMMMMNNMNNNmNNNNNNmNNNNNNNmmmd
-...`..````.`..`..::---:+yhddmNd.`.`..````````..```..````....-mNNNNNNNmmmmmmmmmmmmmmmNmmmmmmmmmNNNNNm
-...`````....````.--:/ody+:+dMMy..`..````````..```.```````..`-mmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
-.`.````.````````.ys:-..``.yNMNo`...`````````.````.``````..``:mmmmmmmmmNmNNNNNNNNNNNNNNNNNNNNNNNNNNmm
-.`````.`..```````-.`````.:dNMN:`..````````.`````.``````.-..`:mNNNmmNmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
--..`````````..``````````.omMMd...````````..````.``````....-`/mmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
--...`..`````````````````:dNMMy..`````````````````````.`.`..`+mmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
-....`-..`.`````````````.-dNMN+.``````````````````````-...`.`ommmmmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNm
--..``.`.`....``````````.`/mMd-````````..`````````````....`.`ommmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNNNNm
--..`.``.`````````````.```.dN+```````````````````````..`.````smmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNNNNNNNm
-...`.`..`.`````...`.``````.:.```````..`````````````..```````smmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNNNNNNm
-o+//::--....```````````````````````..````.`````````.````````yddmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNNNm
-NNNNNNNmmmmdddhhyyysssoo++/:.````..................```......hmmmmmmmmmmmNNNNmmmmmmmmmmmmmmmmmNNNNNNN
 
 PROJECTS
 
@@ -134,44 +26,6 @@ Window 10 Service Stripper
 
 TMUX Conf file
   My personal TMUX, terminal multiplexer, configuration file. Simple, flat and minimalistic with soft white and blue/green/orange highlights.
-
-  hyodyhoyhyo+shyo/+/syyyyyhsooo/:/+::://////:/+:///:/:-.`/-````y-o.-:..-/-/hMMMMmNNNys+/::o//o//:..-:
-  hyhdyso+ooo+ssoooysoosssshy+/::+++/:/+//o/+/+++o+//:-:/:+````.y:o.-:...:sNMMMNmhNNmdo//++s+/o//:--.-
-  yyyhdsssyyhdssoss++++osssyho+:+/++/:+++//+//++/::-:-....o```..d++`+/.-omNMMNNs-oNNNh+:///o/:+//---.:
-  hyyhmhssyhmdhyoooooososossy///+soh+oos+oooo+o//+/:-:/::-/:`..`y/+`o::hmNMNNd+:.oNMNy+:/::://+//---.-
-  hhsomhhhdhmhyyo++/+oo+ossyo+oo+shyo+sso/+++o++//++/+/+////```+ho+`+/dNNNNdys:..sNNNs//::://+//+/--..
-  oooodhdmdhdysoooooooso+oss+oo+++h++++/:://+++os+//::///:.o`..+hs+oymNNNNyo+.```sMMNy//::+oosssss/--.
-  ooosyhhdddhhhyysshsssshhhsysoss+ho/s++/:/+/:+ss+///:-...`-+`:/yhohmNNNyoo--.```sNNNh+/:o+osyhdhy+---
-  oysshhyhysddhhyo/ssssyyhddssssssy+o/++o/:+o/+o++:::/-`````+sy:ysdNNmhoos-``.`.-yNMNyo+//s/:osoy/:-..
-  o+oymdyh+sddmdysshyhyssyddyssyosyo+/o+o///++o+///::...`.```.+oymNNhoyoh+.--:/::hNMNoo+:os/+oo//-::..
-  sss+syhhssyssosssssyhhyhdhdyysshsysoo+os+oyo//:///+/:::--..//dNNdyyhhhy//:::/::yNMNyso:o:::/:-:-----
-  /+yhhddhshhyhysosoydhhhhdddydyhdoyhy+/shyhysso:///oo::/:-//hmNmdoddddyy///+/++/yNNNhys/+//-:--:--:--
-  +s+hyyhssyhhyoyyhhhhdydddddyyhhhssyyo/syhyss////::/soo//+odNNNodommmdys+++++/+/hNNNyss//::-::-/--:--
-  yhsssyyhsys+oosoyhmmmdhdhhdyhhhsyhyhdssyyo++/oo+//ooyyshhNNmdmsdommhyh/++++oooymNNNsso+///-/:-:--:--
-  dmmmmmdshhyhyhhsysshhyhyyyssosy+hdddhysyyhsosyydhooy+oymdomNdmodsmdhyy/oosyssyshNNNoo++++/:/:-/+-/--
-  dddmNdhhhhysyyyyyyyhdyyhhyyshyd:yyhmNdyosssoossydhyysdoys+dmdmodss:oss/+/ohsosohNNNs++/++o/o/-sN+hh+
-  NmNNNmmNNNNmdmhdddhhhyhhyyysooy/hsymNdyydhyyyysymdyoyy++sohhhhodsh+/oss+oys+oyodNNNso+:////oymMMMNdy
-  hdNMNmdmNNmmmmhmmmNNNmmmdmmmdds+dddNMmdmmmdyyddhhhysos++yyhdhhodshyy++++h+osooshNNNsoo/+/+/++mMMMMNh
-  yyhsyyyyhhdhhdhmmmmmddddhhddhdooydmNNNhyhhhhhhyyssyyss+oyshddhodsoyyooossosysyshNNNso+/+oy:sodNNmmdy
-  hhysosooyysyysossyyyyyyyyyyyoo+///:////::::::/:/:/oyhhydyooo/::/::/::::+/+ossosyNNNysooooshNNNmddhyy
-  soysoo+oososo++o++//:----::--::::::::::::::::::/+ooyssydmhoshyhso++oooosyhddhyymmNNyyyysysmMNmmddhhh
-  /o/::::-:::::-------::::::::::::::::://://////+/ooyyy+sshy--:+shhdddhhhhhhhhddmNNNNhdhhhhhmNNmmdddhd
-  -::::::::://///////://////::::::////////////++/+o+oodyssss:-///--::+oyyhhhhddmNNNNNddmmdddNMNNNmmmdd
-  /////////////+//////////////////////++++++++oo+//+/osssssso+:/:.:-.-----:/++osydNNNmmmmmmmMMNNNNNNmm
-  /////////////++++/+//////++++++++++++++++ooo+o+oshhsoydyoso+oso::/:///-::-/-..:sNNNmmmNmmmMMMNNNNNNm
-  ++//+++++o+++o+++++++/+++++++++++++oooooo+oo+++++oysdhmmyo+shhyo/+y/+o//-/+:--:yNNNmNmNNNNNMMMMNNNNN
-  ooooo+++++++++++++++++++++oo+oooooooooossssysssyo:/oo++mmdy/sodhyys++so:-.:::--sNNNNNmNNNNNNNNmmmmNN
-  oooooo++oo+++o+o++++oooooooooooooos+ssssysoo+ossoos+yyhohmmys//dh+oyoo+///..::-oNNNNNmNNmmmmdhsymddo
-  ooooooo+ooooooooooooooooosssoossssssssyyyys+/ossosys/+oshdNmhsoshs:::::/:/::-/+yNNNNNNNmmmmmmhysdyso
-  oooooooooooosoooo++oooooooosssssssyysyyyosososo::::++:./o/sdddhs/+:-+/o++/:://:sNNNNNNNmmmmddyysdyss
-  oosososooooosoossoooossosssssssyysosyooooo::::-..://hymhdhdmmmmds+/oosoyoso+///oNNNNNmmmmmmddysshsyd
-  soosssooossosssssssssssssysso:....`.syysy/+sssso+s+sdy+ysm+shmNmhys+:+yo+/:/+oosNNNmNmNmmmmddhsshyym
-  ossssssoossssssssssssssssssysyhh+:shyhosssossooooo+oydshsyyohymNmdhho:/hyo//+//hNNNNNNNmmmmddmyydhyd
-  sssosssssssssssssssysossssysysyyyhhhsyo/o+ooss/sdmhhhyydh++hdyddNNhhys:-oy+osh:yNNNNmNNmdmmmmmhhdhym
-  ysssssssyysssssyyssyssyyyosyhhyhhhhysysys//++soo+/:-o/oo-shm+odhmNNmhyoo::ososydNNNmmNmmmmmmmmhhhhhm
-  ssssyyyyyssysysyyysyyyyyhhhhdddhhyyhyyyyhmhssooos+o/::ydy+osssmyshhdyNNdys+ohhyyNNNmmmmmdmNmmdhdhhdN
-  ysssysssyyyssyyyyysyhyyhhyhhhhhho--:ssyysydsyhhhdshdyo/:yshyyyoshyohy/+yyyh+/mmdNNNmdmmmdmmmNdmmhhdm
-  syssssyysysyyyyyyyhyyyhhhhhhdhdhhhdmddhyossshhsoshhyo/-.:.-+ydNmmdhNmhyddmhdy:oNNNNmdmmmdmmNNdhdhhmm
 
 CONTACTS
 
