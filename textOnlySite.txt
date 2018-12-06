@@ -9,7 +9,7 @@ __
 BLOG
 https://imbran.github.io/blog.html
 
-This blog is technology focused, relating to my experiences professionally and personally. It explores topics ranging from Safari Extension Programming to setting up new computers.
+This blog is technology focused, relating to my experiences professionally and personally. It explores topics ranging from developement and IT managment to technology trends and reviews.
 __
 
 PROJECTS
