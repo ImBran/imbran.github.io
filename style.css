@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  position: relative;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep, .projects, .projectsSep, .contactme, .contactmeSep {
@@ -12,6 +13,9 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  top: 0;
+
 
 }
 .blgimg {
@@ -105,4 +109,37 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
+}
+/*TESTING AREA*/
+#cssmenu {
+  position:fixed;
+  top: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: .8;
+  z-index: 150;
+  /*box-shadow: 0 2px 3px rgb(0,0,0);*/
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: floralwhite;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: white;
+  color: black;
 }
