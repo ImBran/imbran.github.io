@@ -15,6 +15,13 @@ img.thumb {
 img:hover {
   box-shadow: 0 0 2px 2px #777;
 }
+.content {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  background-color: inherit;
+}
 .anchor {
   position: relative;
   top: 50px;
@@ -117,7 +124,7 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/*@media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
