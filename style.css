@@ -11,6 +11,9 @@ img.thumb {
 img:hover {
   box-shadow: 0 0 2px 2px #777;
 }
+h1 {
+  text-align: left;
+}
 .content {
   max-width: 900px;
   margin: auto;
