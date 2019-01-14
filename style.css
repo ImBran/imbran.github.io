@@ -25,7 +25,7 @@ img:hover {
 .contentBox {
 
 }
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .projects, .contactme {
+.bgimg-1, .bgimg-2, .blog, .projects, .contactme {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -34,13 +34,6 @@ img:hover {
   background-size: cover;
   width: 100%;
   top: 0;
-}
-.blgimg {
-  border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
 }
 a {
   color: aqua;
@@ -73,17 +66,6 @@ a:hover {
   min-height: 100%;
 }
 
-.bgimg-3 {
-  background-image: url("projects.jpg");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("trail.jpg");
-  min-height: 600px;
-
-}
-
 .caption {
   position: absolute;
   left: 0;
@@ -110,8 +92,8 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-/*@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
         background-attachment: scroll;
     }
     .contentBox {
@@ -119,13 +101,9 @@ h3 {
     margin: 0;
     }
 }
-*/
 @media screen and (max-width:1024px){
   img.thumb {width: 100%;}
-  /*.contactme {background-attachment: scroll;}*/
-  .contentBox {
-  max-width: 100%;
-  margin: 0;
+
   }
 }
 @media screen and (min-width:600px){
