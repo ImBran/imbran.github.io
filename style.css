@@ -6,11 +6,7 @@ body, html {
   position: relative;
 }
 img.thumb {
-  border: 1px solid #ddd; /* Gray border */
-  border-radius: 4px;  /* Rounded border */
-  padding: 5px; /* Some padding */
-  width: 150px; /* Set a small width */
-  height: 100px;
+  padding: 1px; /* Some padding */
 }
 img:hover {
   box-shadow: 0 0 2px 2px #777;
@@ -25,6 +21,9 @@ img:hover {
 .anchor {
   position: relative;
   top: 50px;
+}
+.contentBox {
+
 }
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .projects, .contactme {
   position: relative;
@@ -57,21 +56,21 @@ a:hover {
 }
 
 .bgimg-2 {
-  background-image: url("banner.jpg");
-  min-height: 400px;
+  background-image: url("fam.jpg");
+  min-height: 100%;
 }
 .blog {
   background-image: url("banner.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 .projects {
   background-image: url("projects.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .contactme {
   background-image: url("trail.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .bgimg-3 {
@@ -115,26 +114,17 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
-}
-@media only screen and (max-width: 700px) {
-  img.thumb {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-  .content {
+    .contentBox {
     max-width: 100%;
-  }
+    margin: 0;
+    }
 }
-
-@media only screen and (max-width: 500px) {
-  img.thumb {
-    width: 100%;
-  }
-  .content {
-    max-width: 100%;
-  }
+@media screen and (max-width:1024px){
+  img.thumb {width: 100%;}
 }
-
+@media screen and (min-width:1025px){
+  img.thumb {width: 200px;}
+}
 #cssmenu {
   position:fixed;
   top: 0;
