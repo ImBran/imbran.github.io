@@ -94,24 +94,23 @@ h3 {
   color: #111;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones*/
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
         background-attachment: scroll;
-    }
+}
     .contentBox {
     max-width: 100%;
     margin: 0;
     }
 }
-@media screen and (max-width:1024px){
-  img.thumb {width: 100%;}
+@media screen and (max-width: 600px) {
+  img.thumb {width:100%;}
+}
+@media screen and (min-width:601px){
+  img.thumb {width:200px;}
+}
 
-  }
-}
-@media screen and (min-width:600px){
-  img.thumb {width: 200px;}
-}
 #cssmenu {
   position:fixed;
   top: 0;
