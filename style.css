@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
   color: #777;
   position: relative;
 }
@@ -68,25 +68,12 @@ a:hover {
   background-image: url("projects.jpg");
   min-height: 600px;
 }
-.blogSep {
-  background-image: url("banner.jpg");
-  min-height: 100px;
-}
-.projectsSep {
-  background-image: url("projects.jpg");
-  min-height: 100px;
-}
-.contactmeSep {
-  background-image: url("trail.jpg");
-  min-height: 100px;
-}
+
 .contactme {
   background-image: url("trail.jpg");
   min-height: 600px;
 }
-.blogNav a {
-  color: black;
-}
+
 .bgimg-3 {
   background-image: url("projects.jpg");
   min-height: 400px;
@@ -129,17 +116,18 @@ h3 {
         background-attachment: scroll;
     }
 }
-/*TESTING AREA*/
+
 #cssmenu {
   position:fixed;
   top: 0;
-  margin: auto;
+  margin: 0 auto;
   left: 0;
   right: 0;
   width: 100%;
   opacity: .8;
   z-index: 150;
-  /*box-shadow: 0 2px 3px rgb(0,0,0);*/
+  box-shadow: 0 2px 3px rgb(0,0,0);
+  font-size-adjust: auto;
 }
 ul {
   list-style-type: none;

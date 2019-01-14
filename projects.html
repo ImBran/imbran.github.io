@@ -7,65 +7,56 @@
     <title>Hi, I'm Brandon Marcelle</title>
   </head>
   <body>
-    <a href="index.html">
-      <div class="projects">
-        <div class="caption">
-          <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PROJECTS</span>
-        </div>
+    <div id="cssmenu">
+      <ul class="nav">
+        <li class="nav"><a href="index.html">imbrankm</a></l>
+        <li class="nav"><a href="blog.html">blog</a></l>
+        <li class="nav"><a href="projects.html">projects</a></l>
+        <li class="nav"><a href="contact.txt" target="_blank">contact</a></l>
+      </ul>
+    </div>
+    <div class="bgimg-3">
+      <div class="caption">
+        <span class="border">PROJECTS</span>
       </div>
+    </div>
     </a>
-      <div style="position:relative;">
-        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-          <p><h1>PassMaker Secure Password Generator</h1></p>
+    <div style="position:relative;">
+      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <div class="content">
+          <p><h2>PassMaker Secure Password Generator</h2></p>
           <p>PassMaker comes in two flavors. PassMaker and PassMaker-DW.</p>
           <p><strong><a href="pssmkr_DW.html" target="_blank">PassMaker-DW</a></strong></p>
-          <p>PassMaker-DW is a Diceware passphrase generator built on <a href="https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt" target="_blank">The EFFs large list</a> of passphrases.According to the most recent password security research, 6 consecutive random words are the most secure way to create a password, because it turns out humans aren't that good at making <a href="http://people.ischool.berkeley.edu/~nick/aaronson-oracle/" target="_blank">unpredicable decisions.</a> PassMaker-DW uses Diceware Theory. It uses randomly generated numbers, similar to a dice roll to generate a key (11111-66666) and value (associated phrase) to create a unique secure passphrase. </p>
+          <p>PassMaker-DW is a Diceware passphrase generator built on <a href="https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt" target="_blank">The EFFs large list</a> of passphrases. According to the most recent password security research, 6 consecutive random words are the most secure way to create a password, because it turns out humans aren't that good at making <a href="http://people.ischool.berkeley.edu/~nick/aaronson-oracle/" target="_blank">unpredicable decisions.</a> PassMaker-DW uses Diceware Theory. It uses randomly generated numbers, similar to a dice roll to generate a key (11111-66666) and value (associated phrase) to create a unique secure passphrase. </p>
           <p><strong><a href="pssmkr_PW.html" target="_blank">PassMaker</a></strong></p>
           <p>PassMaker is a generator for basic common passwords including basic requirements (capital letters, special characters and numbers).  </p>
+          <hr>
+          <h2>OpenSpotify, Safari Extension</h2>
+          <p>Enables users to click on spotify links systemwide that open in Spotify Desktop Client.</p>
+          <hr>
+          <h2>Windows 10 Service Stripper</h2>
+          <a target="_blank" href="ss.png">
+            <img class="thumb" src="ss.png" alt="Service Stripper">
+          </a>
+          <a target="_blank" href="ssr.png">
+            <img class="thumb" src="ssr.png" alt="myTMUX">
+          </a>
+          <p>Windows Service Stripper is a BAT I use after new installations of Windows 10. This BAT disables unwanted services, telemetry (Enterprise V. Only), removes app packages (xbox, windows store etc.) and enables GODMODE. Full list in README.</p>
+          <p>WSS opens in a CMD window and allows users to choose from a variety of options. Each option will be logged with date and time stamp to log file created by the BAT so a user can see the applications last run. Each option is entered by the user step-by-step and can be quit out of at each pause. </p>
+          <hr>
+          <h2>TMUX Confuration File</h2>
+          <a target="_blank" href="tmuxconf.png">
+            <img class="thumb" src="tmuxconf.png" alt="myTMUX">
+          </a>
+          <p>My personal TMUX, terminal multiplexer, configuration file. Simple, flat, and minimalist white and gray panes. The status bar moved to the top mimicking MacOS, mouse features turned on, and slight changes to active and inactive panes.</p>
         </div>
       </div>
-      <div class="projectsSep">
-        <div class="caption">
-          <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
-        </div>
-      </div>
-    <div style="position:relative;">
-      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p><h1>OpenSpotify Safari Extension</h1></p>
-        <p>Enables users to click on spotify links systemwide that open in Spotify Desktop Client.</p>
-      </div>
     </div>
-    <div class="projectsSep">
-      <div class="caption">
-        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
-      </div>
-    </div>
-    <div style="position:relative;">
-      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p><h1>TMUX Configuration File</h1></p>
-        <p>My personal TMUX, terminal multiplexer, configuration file. Simple, flat, and minimalist with soft white and blue/green/orange highlights.</p>
-      </div>
-    </div>
-    <div class="projectsSep">
-      <div class="caption">
-        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
-      </div>
     </div>
     <div style="position:relative;">
-      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p><h1>Windows Service Stripper</h1></p>
-        <p>Windows Service Stripper is a BAT I use after new installations of Windows 10. This BAT disables unwanted services, telemetry (Enterprise V. Only), removes app packages (xbox, windows store etc.) and enables GODMODE. Full list in README.</p>
-        <p>WSS opens in a CMD window and allows users to choose from a variety of options. Each option will be logged with date and time stamp to log file created by the BAT so a user can see the applications last run. Each option is entered by the user step-by-step and can be quit out of at each pause. </p>
-      </div>
-      <div class="projectsSep">
-        <div class="caption">
-          <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
-        </div>
-      </div>
-      <div style="position:relative;">
-        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:5px 8px;text-align: center;">
-          <p><small>© 2018 <a href="http://www.imbrankm.com">imbrankm.com</a></small></p>
-        </div>
+      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: center;">
+        <p><a href="contact.txt">contact</a> | <a href="https://lobste.rs/u/Bran" target="_blank">lobsters</a> | <a href="https://github.com/ImBran" target="_blank">github</a> | <a href="https://vsco.co/brankm/images/1" target="_blank">vsco</a>
+        <small> © 2018 <a href="http://www.imbrankm.com">imbrankm.com</a></small></p>
       </div>
     </div>
   </body>
