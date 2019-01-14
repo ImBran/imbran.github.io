@@ -26,7 +26,7 @@ img:hover {
   position: relative;
   top: 50px;
 }
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .blogSep, .projects, .projectsSep, .contactme, .contactmeSep {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .blog, .projects, .contactme {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -115,6 +115,24 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
+}
+@media only screen and (max-width: 700px) {
+  img.thumb {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img.thumb {
+    width: 100%;
+  }
+  .content {
+    max-width: 100%;
+  }
 }
 
 #cssmenu {
