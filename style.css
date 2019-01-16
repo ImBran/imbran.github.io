@@ -104,13 +104,14 @@ h3 {
     margin: 0;
     }
 }
+/*Scale up up pictures to full width on mobile */
 @media screen and (max-width: 600px) {
   img.thumb {width:100%;}
 }
 @media screen and (min-width:601px){
   img.thumb {width:200px;}
 }
-
+/*Top Nav*/
 #cssmenu {
   position:fixed;
   top: 0;
