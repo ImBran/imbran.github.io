@@ -58,27 +58,27 @@ a:hover {
 }
 
 .bgimg-1 {
-  background-image: url("trees.JPG");
+  background-image: url("trees.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("fam2.JPG");
+  background-image: url("fam2.jpg");
   min-height: 100%;
 }
 
 .blog {
-  background-image: url("macbooks.JPG");
+  background-image: url("macbooks.jpg");
   min-height: 100%;
 }
 
 .projects {
-  background-image: url("philly.JPG");
+  background-image: url("philly.jpg");
   min-height: 100%;
 }
 
 .contactme {
-  background-image: url("trail.JPG");
+  background-image: url("trail.jpg");
   min-height: 100%;
 }
 
