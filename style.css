@@ -109,7 +109,6 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
         background-attachment: scroll;
-        background-size: contain;
 }
     .contentBox {
     max-width: 100%;
