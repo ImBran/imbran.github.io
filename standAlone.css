@@ -52,7 +52,7 @@ a:hover {
   color: black;
   font-weight: lighter;
   border: 1px solid black;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -60,13 +60,14 @@ a:hover {
   width: 80%;
   padding: 20px;
   text-align: center;
+  overflow-y: scroll;
 }
 @media only screen and (max-device-width: 1024px) {
-    .mainwin2 {width:90%;}
+    .mainwin2 {width:80%;height:80%;}
     .bg-image2 {background-size:cover;background-position:left;}
   }
 /*Scale up up pictures to full width on mobile */
 @media screen and (max-width: 1024px) {
-  .mainwin2 {width:90%;}
+  .mainwin2 {width:80%;height:80%;}
   .bg-image2 {background-size:cover;background-position:left;}
 }

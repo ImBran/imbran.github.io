@@ -38,7 +38,7 @@ hr.style {
   top: 50px;
 }
 
-.bgimg-1, .bgimg-2, .blog, .projects, .contactme {
+.bgimg-1, .blog, .projects, .contactme {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -64,8 +64,13 @@ a:hover {
 
 .bgimg-2 {
   background-image: url("family.jpg");
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   min-height: 100%;
   background-position: left;
+  background-size: cover;
 }
 
 .blog {
