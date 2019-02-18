@@ -50,7 +50,7 @@ hr.style {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -139,6 +139,14 @@ h3 {
   box-shadow: 0 2px 3px rgb(0,0,0);
   font-size-adjust: auto;
 }
+#contactNav {
+  color: black;
+  background-color: softwhite;
+  text-align: center;
+  padding: 5px 8px;
+  text-align: center;
+}
+
 
 ul {
   list-style-type: none;
