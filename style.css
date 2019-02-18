@@ -32,13 +32,12 @@ hr.style {
   padding: 10px;
   background-color: inherit;
 }
+
 .anchor {
   position: relative;
   top: 50px;
 }
-.contentBox {
 
-}
 .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
   position: relative;
   opacity: 0.65;
@@ -49,6 +48,7 @@ hr.style {
   width: 100%;
   top: 0;
 }
+
 a {
   color: aqua;
   text-decoration: none;
@@ -56,27 +56,29 @@ a {
 a:hover {
   color: orange;
 }
+
 .bgimg-1 {
-  background-image: url("trees.jpg");
+  background-image: url("trees.JPG");
   min-height: 100%;
-  opacity: .1:
 }
 
 .bgimg-2 {
-  background-image: url("fam2.jpg");
+  background-image: url("fam2.JPG");
   min-height: 100%;
 }
+
 .blog {
-  background-image: url("macbooks.jpg");
+  background-image: url("macbooks.JPG");
   min-height: 100%;
 }
+
 .projects {
-  background-image: url("philly.jpg");
+  background-image: url("philly.JPG");
   min-height: 100%;
 }
 
 .contactme {
-  background-image: url("trail.jpg");
+  background-image: url("trail.JPG");
   min-height: 100%;
 }
 
@@ -109,14 +111,13 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
     background-attachment: scroll;
+    min-height: 50%;
     }
     .contentBox {
     max-width: 100%;
     margin: 0;
     }
-    .bgimg-1, .bgimg-2, .projects, .blog, .contactme {
-    min-height: 50%;
-    }
+
 }
 /*Scale up up pictures to full width on mobile */
 @media screen and (max-width: 600px) {
@@ -138,6 +139,7 @@ h3 {
   box-shadow: 0 2px 3px rgb(0,0,0);
   font-size-adjust: auto;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -145,9 +147,11 @@ ul {
   overflow: hidden;
   background-color: black;
 }
+
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: floralwhite;
@@ -155,6 +159,7 @@ li a {
   padding: 10px 16px;
   text-decoration: none;
 }
+
 li a:hover {
   background-color: white;
   color: black;
