@@ -65,6 +65,7 @@ a:hover {
 .bgimg-2 {
   background-image: url("family.jpg");
   min-height: 100%;
+  background-position: left;
 }
 
 .blog {
