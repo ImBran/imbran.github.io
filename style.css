@@ -114,6 +114,11 @@ h3 {
     max-width: 100%;
     margin: 0;
     }
+    .bgimg-1, .bgimg-2 {
+      /*background-image: url("trail.jpg");*/
+      min-height: 50%;
+      opacity: .1:
+    }
 }
 /*Scale up up pictures to full width on mobile */
 @media screen and (max-width: 600px) {
