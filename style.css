@@ -57,13 +57,13 @@ a:hover {
   color: orange;
 }
 .bgimg-1 {
-  background-image: url("crazy.jpg");
+  background-image: url("trees.jpg");
   min-height: 100%;
   opacity: .1:
 }
 
 .bgimg-2 {
-  background-image: url("fam.jpg");
+  background-image: url("fam2.jpg");
   min-height: 100%;
 }
 .blog {
@@ -109,6 +109,7 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
         background-attachment: scroll;
+        background-size: contain;
 }
     .contentBox {
     max-width: 100%;
