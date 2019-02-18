@@ -1,0 +1,72 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: black;
+}
+a:hover {
+    color: gray;
+}
+.bg-image {
+  background-image: url("trail.jpg");
+  /*background-image: linear-gradient(-15deg, #696969, #6495ED, aqua);*/
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;;
+}
+.bg-image2 {
+  background-image: url("family.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .6;
+}
+.mainwin  {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.mainwin2  {
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255, 0.7); /* Black w/opacity */
+  color: black;
+  font-weight: lighter;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+@media only screen and (max-device-width: 1024px) {
+    .mainwin2 {width:90%;}
+    .bg-image2 {background-size:cover;background-position:left;}
+  }
+/*Scale up up pictures to full width on mobile */
+@media screen and (max-width: 1024px) {
+  .mainwin2 {width:90%;}
+  .bg-image2 {background-size:cover;background-position:left;}
+}
