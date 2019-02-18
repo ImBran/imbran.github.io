@@ -108,16 +108,14 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones*/
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
-        background-attachment: scroll;
-}
+    background-attachment: scroll;
+    }
     .contentBox {
     max-width: 100%;
     margin: 0;
     }
     .bgimg-1, .bgimg-2, .projects, .blog, .contactme {
-      /*background-image: url("trail.jpg");*/
-      min-height: 50%;
-      opacity: .1:
+    min-height: 50%;
     }
 }
 /*Scale up up pictures to full width on mobile */
