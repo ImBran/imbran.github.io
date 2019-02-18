@@ -50,11 +50,11 @@ hr.style {
 }
 
 a {
-  color: aqua;
+  color: white;
   text-decoration: none;
 }
 a:hover {
-  color: orange;
+  color: gray;
 }
 
 .bgimg-1 {
