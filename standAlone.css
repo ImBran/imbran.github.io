@@ -7,11 +7,11 @@ body, html {
   box-sizing: border-box;
 }
 a {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 a:hover {
-    color: gray;
+    color: black;
 }
 .bg-image {
   background-image: url("trail.jpg");
