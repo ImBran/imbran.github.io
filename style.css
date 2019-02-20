@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
-  color: #777;
+  color: black;
   position: relative;
 }
 img.thumb {
@@ -107,6 +107,9 @@ a:hover {
   font-size: 25px;
   letter-spacing: 10px;
   border-radius: 25px;
+}
+.navbumper {
+  padding-top:100px;
 }
 
 h3 {
