@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Brandon Marcelle, an information technology professional in Philadelphia Pennsylvania.">
+    <meta name="keywords" content="Brandon Marcelle, brankm, IT, I.T., information technology professoinal, pennsylvania, PA, philadelphia, blog">
+    <meta name="author" content="Brandon Marcelle">
+    <title>imbrankm dot com</title>
+  </head>
+  <body>
+    <div id="cssmenu">
+      <ul class="nav">
+        <li class="nav"><a href="main.html">imbrankm</a></li>
+        <li class="nav"><a href="blog.html">blog</a></li>
+        <li class="nav"><a href="projects.html">projects</a></li>
+        <li class="nav"><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <div class="navbumper">
+    </div>
+    <div style="position:relative">
+      <div style="color:black;background-color:softwhite;text-align:center;padding:5px 8px;text-align: justify;">
+          <div class="content">
+            <p><a name="wss">[September 22, 2018]</a></p>
+            <p><h1>Windows Service Stripper</h1></p><p>Well, it’s been a few years since I’ve last used Windows so I thought I’d give it a whirl again in a VM instance. Thanks Oracle for Virtual Box (https://www.virtualbox.org) for an amazing free and Open Source virtualization solution.</p>
+            <p>I’ve installed Windows 10 Enterprise edition and a few things made me happy upon first sight of the desktop, and a lot made me sigh or cringe. First off the metro interface has taken a welcomed back seat. The settings app has finally been streamlined, the context menus are no longer opened on the bottom 10% of the screen, and the start menu can be right clicked to open file explorer and administrative tools. The start menu can be customized by deleting all of those ugly live tiles as well as Cortana can finally be disabled very easily without castrating the system search settings.</p>
+            <p>Windows is still home for a lot of packaged bloat, however. Even the Enterprise edition comes with Xbox management and integration services and tons of other useless features for people who just want a bare bones installation. </p>
+            <p>I have released Windows Service Stripper as a quick and easy tool to help disabling system services, removing unwanted application packages and prevent some of its telemetry services. This tool is safe for private but not intended to be used commercially. This BAT is designed with pro and novice users in mind and requires administrative rights to run. The BAT executes in a CMD.exe window and initiates each step chosen by the user and verified through PAUSE commands. It creates a folder in /ProgramFiles with a .log file records the date and time of each commands last run. There is also an option to enable GOD MODE in C:/. This a Windows Custom folder where a shortcut for all of its built-in Administrative Tools and their descriptions for quick and easy access. WSS is available for download/pull on my GitHub projects page.</p>
+            <hr class="style">
+          </div>
+      </div>
+    </div>
+      <div style="position:relative;">
+      <div id="contactNav">
+        <p><a href="contact.txt" target="_blank">contact</a> | <a href="https://lobste.rs/u/Bran" target="_blank">lobsters</a> | <a href="https://github.com/ImBran" target="_blank">github</a> | <a href="https://vsco.co/brankm/images/1" target="_blank">vsco</a> |
+        <small> © 2019 <a href="index.html">imbrankm.com</a></small></p>
+      </div>
+    </div>
+  </body>
+</html>

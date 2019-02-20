@@ -45,7 +45,7 @@ hr.style {
   background-color: inherit;
 }
 .contentBlog {
-  max-width: 900px;
+  max-width: 90%;
   margin: auto;
   background: white;
   padding: 10px;
@@ -127,7 +127,7 @@ a:hover {
   border-radius: 25px;
 }
 .navbumper {
-  padding-top:100px;
+  padding-top:50px;
 }
 
 h3 {
@@ -137,33 +137,7 @@ h3 {
   color: #111;
 }
 
-/* Turn off parallax scrolling for tablets and phones*/
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
-    background-attachment: scroll;
-    min-height: 50%;
-    }
-    .contentBox {
-    max-width: 100%;
-    margin: 0;
-    }
-    .postBox {
-      width:90%;
-      height:100%;
-    }
 
-}
-/*Scale up up pictures to full width on mobile */
-@media screen and (max-width: 600px) {
-  img.thumb {width:100%;}
-  .postBox {
-    width:90%;
-    height:100%;
-  }
-}
-@media screen and (min-width:601px){
-  img.thumb {width:200px;}
-}
 /*Top Nav*/
 #cssmenu {
   position:fixed;
@@ -209,4 +183,37 @@ li a {
 li a:hover {
   background-color: white;
   color: black;
+}
+/* Turn off parallax scrolling for tablets and phones*/
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
+    background-attachment: scroll;
+    min-height: 50%;
+    }
+    .contentBox {
+    max-width: 100%;
+    margin: 0;
+    }
+    .postBox {
+      width:90%;
+      height:100%;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+  .postBox {
+    width:90%;
+    height:100%;
+  }
+}
+/*Scale up up pictures to full width on mobile */
+@media screen and (max-width: 600px) {
+  img.thumb {width:100%;}
+  .postBox {
+    width:90%;
+    height:100%;
+  }
+}
+@media screen and (min-width:601px){
+  img.thumb {width:200px;}
 }
