@@ -35,8 +35,7 @@ hr.style {
   border-radius: 25px;
   display: inline-block;
   vertical-align: top;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: scroll;
 }
 .content {
   max-width: 780px;
@@ -149,8 +148,8 @@ h3 {
     margin: 0;
     }
     .postBox {
-      width:200px;
-      height:200px;
+      width:90%;
+      height:100%;
     }
 
 }
@@ -158,8 +157,8 @@ h3 {
 @media screen and (max-width: 600px) {
   img.thumb {width:100%;}
   .postBox {
-    width:200px;
-    height:200px;
+    width:90%;
+    height:100%;
   }
 }
 @media screen and (min-width:601px){
