@@ -12,6 +12,7 @@ img.thumb {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
+  border: .1px solid aqua;
 }
 img:hover {
   box-shadow: 0 0 2px 2px #777;
@@ -28,7 +29,7 @@ hr.style {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 .postBox {
-  border: 1px solid gray;
+  border: .1px solid aqua;
   width: 300px;
   height: 300px;
   margin: 5px;
@@ -74,7 +75,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: gray;
+  color: aqua;
 }
 
 .bgimg-1 {

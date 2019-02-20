@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: aqua;
 }
 .bg-image {
   background-image: url("trail.jpg");
