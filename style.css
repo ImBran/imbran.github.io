@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: serif;
 }
 
 * {
@@ -53,7 +53,7 @@ a:hover {
   padding: 0 200px 0;
   text-align: left;
   overflow-y: scroll;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: serif;
 }
 
 .mainwinFull  {
