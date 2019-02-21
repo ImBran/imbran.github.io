@@ -1,35 +1,91 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.bg-image {
+  background-image: url("family.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .3;
+}
+
+.bg-image2 {
+  background-image: url("mbooks.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .5;
+}
+
+.mainwin  {
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255, 0.7); /* white w/opacity */
   color: black;
-  position: relative;
-}
-img.thumb {
-  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  /*filter: grayscale(100%);*/
-  padding: 1px; /* Some padding */
-  margin-left: auto;
-	margin-right: auto;
-	display: block;
-  border: .1px solid aqua;
-}
-img:hover {
-  box-shadow: 0 0 2px 2px #777;
-}
-h1 {
+  font-weight: lighter;
+  border: 1px none black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0 200px 0;
   text-align: left;
+  overflow-y: scroll;
+  font: 400 15px/1.8 "Lato", sans-serif;
 }
-h2 {
-  text-align: center;
+
+.mainwinFull  {
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255, 0.7); /* white w/opacity */
+  color: black;
+  font-weight: lighter;
+  border: 1px none black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0 200px 0;
+  text-align: left;
+  overflow-y: scroll;
+  font: 400 15px/1.8 "Lato", sans-serif;
 }
-hr.style {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+@media only screen and (max-device-width: 1024px) {
+    .mainwin {width:100%;height:100%;padding:30px 20px 5px;}
+    .bg-image {background-size:cover;background-position:left;}
 }
+
+/*Scale up up pictures to full width on mobile */
+@media screen and (max-width: 1024px) {
+  .mainwin {width:100%;height:100%;padding:30px 20px 5px;}
+  .bg-image {background-size:cover;background-position:left;}
+}
+
 .postBox {
-  border: .1px solid aqua;
+  border: 1px solid gray;
   width: 300px;
   height: 300px;
   margin: 5px;
@@ -37,184 +93,4 @@ hr.style {
   display: inline-block;
   vertical-align: top;
   overflow: scroll;
-}
-.content {
-  max-width: 780px;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  background-color: inherit;
-}
-.contentBlog {
-  max-width: 90%;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  background-color: inherit;
-  text-align: center;
-}
-
-.anchor {
-  position: relative;
-  top: 50px;
-}
-
-.bgimg-1, .blog, .projects, .contactme {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  top: 0;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: aqua;
-}
-
-.bgimg-1 {
-  background-image: url("home.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("family.jpg");
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  min-height: 100%;
-  background-position: left;
-  background-size: cover;
-}
-
-.blog {
-  background-image: url("mbooks.jpg");
-  min-height: 100%;
-}
-
-.projects {
-  background-image: url("city.jpg");
-  min-height: 100%;
-}
-
-.contactme {
-  background-image: url("trail.jpg");
-  min-height: 100%;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: white;
-  opacity: .6;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  border-radius: 25px;
-}
-.navbumper {
-  padding-top:50px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-
-/*Top Nav*/
-#cssmenu {
-  position:fixed;
-  top: 0;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 100%;
-  opacity: .8;
-  z-index: 150;
-  box-shadow: 0 2px 3px rgb(0,0,0);
-  font-size-adjust: auto;
-}
-#contactNav {
-  color: black;
-  background-color: softwhite;
-  text-align: center;
-  padding: 5px 8px;
-  text-align: center;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: floralwhite;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
-}
-/* Turn off parallax scrolling for tablets and phones*/
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .blog, .projects, .contactme {
-    background-attachment: scroll;
-    min-height: 50%;
-    }
-    .contentBox {
-    max-width: 100%;
-    margin: 0;
-    }
-    .postBox {
-      width:90%;
-      height:100%;
-    }
-
-}
-@media screen and (max-width: 1024px) {
-  .postBox {
-    width:90%;
-    height:100%;
-  }
-}
-/*Scale up up pictures to full width on mobile */
-@media screen and (max-width: 600px) {
-  img.thumb {width:100%;}
-  .postBox {
-    width:90%;
-    height:100%;
-  }
-}
-@media screen and (min-width:601px){
-  img.thumb {width:200px;}
 }
