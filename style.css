@@ -53,7 +53,8 @@ a:hover {
   padding: 0 200px 0;
   text-align: left;
   overflow-y: scroll;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  font: 400 15px/1.8 "Lato", sans-serif;
+
 }
 
 .mainwinFull  {
