@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="description" content="Brandon Marcelle, an information technology professional in Philadelphia Pennsylvania.">
-    <meta name="keywords" content="Brandon Marcelle, brankm, IT, I.T., information technology professoinal, pennsylvania, PA, philadelphia, blog">
-    <meta name="author" content="Brandon Marcelle">
-    <title>Brandon Marcelle - Contact</title>
-  </head>
-  <body style="white-space:pre-wrap;font-family:monospace;">
-Email
-me@brandonmarcelle.com
-
-Lobste.rs
-https://lobste.rs/u/Bran
-
-GitHub
-https://github.com/ImBran
-
-VSCO
-https://vsco.co/brankm/images/1
-
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: Keybase Go 3.0.0 (darwin)
 Comment: https://keybase.io/download
@@ -100,6 +77,3 @@ GikHj71KYwVX+M0OBKhgzq4IfADkc/Ayi1sMMNl5+pstqw9JH5FgLrgT13CL+Ka4
 lytf7Q==
 =N/Ni
 -----END PGP PUBLIC KEY BLOCK-----
-
-  </body>
-</html>
