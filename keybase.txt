@@ -1,79 +1,56 @@
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: Keybase Go 3.0.0 (darwin)
-Comment: https://keybase.io/download
+==================================================================
+https://keybase.io/brandonmarcelle
+--------------------------------------------------------------------
 
-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
-lytf7Q==
-=N/Ni
------END PGP PUBLIC KEY BLOCK-----
+I hereby claim:
+
+  * I am an admin of https://brandonmarcelle.com
+  * I am brandonmarcelle (https://keybase.io/brandonmarcelle) on keybase.
+  * I have a public key ASAG7o9K__YbViOC4s58y9ZLeQssfBEubHNEktUmIdYgyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012005af8c41ece7bd5cd9728b22c99d4551b33324f8f15340aa16267c7cbac7e7620a",
+      "host": "keybase.io",
+      "kid": "012006ee8f4afff61b562382e2ce7ccbd64b790b2c7c112e6c734492d52621d620c80a",
+      "uid": "e49417b2e2f16feb1aab45564b9ed819",
+      "username": "brandonmarcelle"
+    },
+    "merkle_root": {
+      "ctime": 1551141639,
+      "hash": "96c585234334518ebf7dac16e1a868ec43d32ef328483b06034e4fa3dc3dfb9c3f06cec1be152e41533e33cff41622d8bfbc309ea7eae92feb13669aedc861e2",
+      "hash_meta": "3489a434cdd23952f82d56a220d59e504e8d20d366b377cbddb95d632f1251fa",
+      "seqno": 4829688
+    },
+    "service": {
+      "entropy": "jrCTy5EVj/Br27zYqnq3D8MT",
+      "hostname": "brandonmarcelle.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1551141919,
+  "expire_in": 504576000,
+  "prev": "23ae776298c53ea0dca5df5f7bef40c9d8df4262d9ba047d7c40c234cfb423a9",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBu6PSv/2G1YjguLOfMvWS3kLLHwRLmxzRJLVJiHWIMgKp3BheWxvYWTESpcCBsQgI653YpjFPqDcpd9fe+9AydjfQmLZugR9fEDCNM+0I6nEII/66xP8wMHMkGiBb7IVQcn/kFnRFur96qfZ0ztL4tabAgHCo3NpZ8RAfjb3ajuAvQD4BdawH9YEUd108XGQXvJbFIrNvkITUEmpGsK1M61NqU6WNsgysHanXnDGYK0X5V1u5hocCPMQBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIg3t4adA66ldWj38uHbXxiY4qbLU/8XPmelTrrvwYGUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brandonmarcelle
+
+==================================================================
