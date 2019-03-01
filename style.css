@@ -5,14 +5,35 @@ body, html {
   color: black;
   background-color: white;
 }
+
 /** {
   border: 1px solid black;
 }*/
 
+#picture {
+  background-image:url('imageAssets/family.jpg');
+  height: 100%;
+  background-position:left;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#gradient {
+  background-image:linear-gradient(#C6FFDD, #FBD786, #f7797d);
+  height:500px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+  opacity:.5;"
+}
+
 .content {
   max-width: 780px;
   margin:auto;
-  margin-top:10%;
+  margin-top:8%;
   background: #ffffff;
   background-color: #ffffff;
   font-family: sans-serif;
@@ -22,7 +43,7 @@ body, html {
   text-align: left;
 }
 
-.section {
+.text-section {
   margin:auto;
   padding: 10px;
 }
@@ -75,7 +96,7 @@ li a:hover {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .content {width:100%}
+    .content {width:100%;margin-top:0}
 }
 
 @media screen and (max-width: 1024px) {
@@ -83,5 +104,5 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .content {width:100%;margin-top:15%;}
+  .content {width:100%;margin-top:0;}
 }
