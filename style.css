@@ -43,8 +43,16 @@ body, html {
   text-align: left;
 }
 
+img.projects {
+  width:200px;
+  padding: 1px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px gray solid;
+}
+
 .text-section {
-  margin:auto;
+  margin:20px;
   padding: 10px;
 }
 
@@ -97,12 +105,15 @@ li a:hover {
 
 @media only screen and (max-device-width: 1024px) {
     .content {width:100%;margin-top:0}
+    img.projects {width:100%;margin:auto;}
 }
 
 @media screen and (max-width: 1024px) {
   .content {width:100%;}
+  img.projects {width:100%;margin:auto;}
 }
 
 @media screen and (max-width: 600px) {
   .content {width:100%;margin-top:0;}
+  img.projects {width:100%;margin:auto;}
 }
