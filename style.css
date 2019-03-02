@@ -1,8 +1,8 @@
 body, html {
   margin:auto;
-  font-family: sans-serif;
+  font-family: 'SourceSansPro', sans-serif;
   line-height: 1.6;
-  color: black;
+  color: #2B1B17;
   background-color: white;
 }
 
@@ -36,7 +36,8 @@ body, html {
   margin-top:8%;
   background: #ffffff;
   background-color: #ffffff;
-  font-family: sans-serif;
+  font-family:sans-serif;
+  letter-spacing: 1px;
   line-height: 1.6;
   transition: 0.9s;
   padding: 0 0 0;
@@ -45,10 +46,10 @@ body, html {
 
 img.projects {
   width:200px;
-  padding: 1px;
+  padding: 3px;
   margin: 10px;
   display: inline-block;
-  border: 1px gray solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .text-section {
@@ -103,7 +104,7 @@ li a:hover {
   color: black;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width:1024px) {
     .content {width:100%;margin-top:0}
     img.projects {width:100%;margin:auto;}
 }
