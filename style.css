@@ -52,6 +52,14 @@ img.projects {
   border-radius: 25px;
 }
 
+img.thumb {
+  width:150px;
+  padding: 3px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .text-section {
   margin:20px;
   padding: 10px;
@@ -68,7 +76,7 @@ a:hover {
 
 /*Top Nav*/
 #cssmenu {
-  position:fixed;
+  position:scroll;
   top: 0;
   margin: 0 auto;
   left: ;
@@ -88,7 +96,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
@@ -112,16 +120,15 @@ h2 {
 @media only screen and (max-device-width:1024px) {
     #picture {background-attachment:scroll;}
     .content {width:100%;margin-top:0}
-    img.projects {width:100%;margin:auto;}
 }
 
 @media screen and (max-width: 1024px) {
   #picture {background-attachment:scroll;}
   .content {width:100%;}
-  img.projects {width:100%;margin:auto;}
 }
 
 @media screen and (max-width: 600px) {
+  #cssmenu {position:fixed;;}
   #picture {background-attachment:scroll;}
   .content {width:100%;margin-top:0;}
   img.projects {width:100%;margin:auto;}
