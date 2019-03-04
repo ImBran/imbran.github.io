@@ -16,13 +16,13 @@ body, html {
   background-position:left;
   background-repeat:no-repeat;
   background-size:cover;
-  background-attachment:scroll;
+  background-attachment:fixed;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #gradient {
   background-image:linear-gradient(#C6FFDD, #FBD786, #f7797d);
-  height:500px;
+  height:700px;
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@ body, html {
 }
 
 .content {
-  max-width: 780px;
+  max-width: 750px;
   margin:auto;
   background: #ffffff;
   background-color: #ffffff;
@@ -44,11 +44,12 @@ body, html {
 }
 
 img.projects {
-  width:200px;
+  width:130px;
   padding: 3px;
   margin: 10px;
   display: inline-block;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
 }
 
 .text-section {
@@ -101,6 +102,11 @@ li a {
 li a:hover {
   background-color: lightgreen;
   color: black;
+}
+
+h2 {
+  color:#063EB1;
+  font-weight:100;
 }
 
 @media only screen and (max-device-width:1024px) {
