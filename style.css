@@ -8,9 +8,9 @@ body, html {
   font-size: 1.125em;
 }
 
-* {
+/** {
   border: 1px solid black;
-}
+}*/
 
 #headerpicture {
   height: 100%;
