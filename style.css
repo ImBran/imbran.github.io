@@ -1,15 +1,16 @@
 body, html {
   margin:auto;
-  font-family: sans-serif;
+  font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #2B1B17;
   background-color: white;
   letter-spacing: 1px;
+  font-size: 1.125em;
 }
 
-/** {
+* {
   border: 1px solid black;
-}*/
+}
 
 #headerpicture {
   height: 100%;
@@ -28,13 +29,26 @@ body, html {
   background-attachment:scroll;
   opacity:.5;"
 }
-
+.headercaption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  opacity: .9;
+}
+.headercaption span {
+  color:white;
+  font-size: 70px;
+  font-weight: bold;
+}
 .content {
   max-width: 750px;
   margin:auto;
   background: #ffffff;
   background-color: #ffffff;
-  font-family:sans-serif;
+  font-family:inherit;
   letter-spacing: 1px;
   line-height: 1.6;
   transition: 0.9s;
@@ -95,7 +109,6 @@ p a {
 
 #cssmenu-bottom {
   position:scroll;
-  margin: inherit;
   width: 100%;
   z-index: 150;
   font-size-adjust: auto;
@@ -145,16 +158,19 @@ h4 {
 @media only screen and (max-device-width:1024px) {
     #picture {background-attachment:scroll}
     .content {width:100%;margin-top:0}
+    .headercaption span {font-size:25px;}
 }
 
 @media screen and (max-width: 1024px) {
   #picture {background-attachment:scroll}
   .content {width:100%}
+      .headercaption span {font-size:25px;}
 }
 
 @media screen and (max-width: 600px) {
   #picture {background-attachment:scroll}
   .content {width:100%;margin-top:0}
   img.projects {width:100%;margin:0 auto}
-  .text-section {margin:0px;}
+  .text-section {margin:0px}
+  li {float:none;}
 }
