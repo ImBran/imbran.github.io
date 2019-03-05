@@ -1,17 +1,17 @@
 body, html {
   margin:auto;
-  font-family: 'SourceSansPro', sans-serif;
+  font-family: sans-serif;
   line-height: 1.6;
   color: #2B1B17;
   background-color: white;
+  letter-spacing: 1px;
 }
 
 /** {
   border: 1px solid black;
 }*/
 
-#picture {
-  background-image:url('imageAssets/family.jpg');
+#headerpicture {
   height: 100%;
   background-position:left;
   background-repeat:no-repeat;
@@ -20,8 +20,7 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#gradient {
-  background-image:linear-gradient(#C6FFDD, #FBD786, #f7797d);
+#headergradient {
   height:700px;
   background-position:center;
   background-repeat: no-repeat;
@@ -60,6 +59,12 @@ img.thumb {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+img.thumb-blog {
+  height:70px;
+  padding: 3px;
+  margin: 10px;
+  display: inline-block;
+}
 .text-section {
   margin:20px;
   padding: 10px;
@@ -73,14 +78,24 @@ a {
 a:hover {
   color: black;
 }
-
+p a {
+  color: #1aodab;
+}
 /*Top Nav*/
-#cssmenu {
+#cssmenu-top {
   position:scroll;
   top: 0;
   margin: 0 auto;
-  left: ;
   right: 0;
+  width: 100%;
+  z-index: 150;
+  font-size-adjust: auto;
+  opacity: .7;
+}
+
+#cssmenu-bottom {
+  position:scroll;
+  margin: inherit;
   width: 100%;
   z-index: 150;
   font-size-adjust: auto;
@@ -96,7 +111,7 @@ ul {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -117,19 +132,29 @@ h2 {
   font-weight:100;
 }
 
+h3 {
+  color:gray;
+  font-weight:100;
+}
+
+h4 {
+  color:black;
+  font-weight: 500;
+}
+
 @media only screen and (max-device-width:1024px) {
-    #picture {background-attachment:scroll;}
+    #picture {background-attachment:scroll}
     .content {width:100%;margin-top:0}
 }
 
 @media screen and (max-width: 1024px) {
-  #picture {background-attachment:scroll;}
-  .content {width:100%;}
+  #picture {background-attachment:scroll}
+  .content {width:100%}
 }
 
 @media screen and (max-width: 600px) {
-  #cssmenu {position:fixed;;}
-  #picture {background-attachment:scroll;}
-  .content {width:100%;margin-top:0;}
-  img.projects {width:100%;margin:auto;}
+  #picture {background-attachment:scroll}
+  .content {width:100%;margin-top:0}
+  img.projects {width:100%;margin:0 auto}
+  .text-section {margin:0px;}
 }
