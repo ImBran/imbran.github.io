@@ -156,19 +156,19 @@ h4 {
 }
 
 @media only screen and (max-device-width:1024px) {
-    #picture {background-attachment:scroll}
+    #headerpicture {background-attachment:scroll}
     .content {width:100%;margin-top:0}
     .headercaption span {font-size:25px;}
 }
 
 @media screen and (max-width: 1024px) {
-  #picture {background-attachment:scroll}
+  #headerpicture {background-attachment:scroll}
   .content {width:100%}
       .headercaption span {font-size:25px;}
 }
 
 @media screen and (max-width: 600px) {
-  #picture {background-attachment:scroll}
+  #headerpicture {background-attachment:scroll}
   .content {width:100%;margin-top:0}
   img.projects {width:100%;margin:0 auto}
   .text-section {margin:0px}
