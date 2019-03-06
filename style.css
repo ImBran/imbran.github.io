@@ -30,7 +30,7 @@ body, html {
   background-attachment:scroll;
   opacity:.5;"
 }
-.headercaption {
+#headercaption {
   position: absolute;
   left: 0;
   top: 40%;
@@ -39,7 +39,7 @@ body, html {
   color: white;
   opacity: .9;
 }
-.headercaption span {
+#headercaption span {
   color:white;
   font-size: 70px;
   font-weight: bold;
@@ -110,6 +110,8 @@ p a {
   width: 100%;
   z-index: 150;
   font-size: 1em;
+  font-weight: 600;
+  letter-spacing:5px;
   opacity: .7;
 }
 
@@ -119,7 +121,9 @@ p a {
   position:scroll;
   width: 100%;
   z-index: 150;
-  font-size-adjust: auto;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing:5px;
   opacity: .7;
 }
 
@@ -166,13 +170,13 @@ h4 {
 @media only screen and (max-device-width:1024px) {
     #headerpicture {background-attachment:scroll}
     .content {width:100%;margin-top:0}
-    .headercaption span {font-size:25px;}
+    #headercaption span {font-size:25px;}
 }
 
 @media screen and (max-width: 1024px) {
   #headerpicture {background-attachment:scroll}
   .content {width:100%}
-  .headercaption span {display:none;}
+  #headercaption span {display:none;}
 }
 
 @media screen and (max-width: 600px) {
