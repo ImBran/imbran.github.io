@@ -95,7 +95,7 @@ a:hover {
   color: black;
 }
 p a {
-  color: #1aodab;
+  color: #2200CC;
 }
 /*Top Nav*/
 #cssmenu-top {
@@ -110,6 +110,8 @@ p a {
 }
 
 #cssmenu-bottom {
+  display:flex;
+  align-items:stretch;
   position:scroll;
   width: 100%;
   z-index: 150;
