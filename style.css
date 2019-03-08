@@ -211,7 +211,7 @@ h4 {
   img.projects {width:100%;margin:0 auto}
   .text-section {margin:0px}
   .blog-section {margin:0px}
-  li {float:none;}
+  #cssmenu-bottom li {float:none;}
   img.thumb {width:100%;margin:0 auto}
 
 }
