@@ -6,6 +6,7 @@ body, html {
   background-color: white;
   letter-spacing: 1px;
   font-size: 1em;
+  text-align: justify;
 }
 
 /** {
@@ -29,6 +30,7 @@ body, html {
   background-attachment:scroll;
   opacity:.5;"
 }
+
 #headercaption {
   position: relative;
   left: 0;
@@ -38,6 +40,7 @@ body, html {
   color: white;
   opacity: .9;
 }
+
 #headercaption span {
   color:white;
   font-size: 70px;
@@ -67,7 +70,7 @@ img.projects {
 }
 
 img.thumb {
-  width:150px;
+  width:230px;
   padding: 3px;
   margin: 10px;
   display: inline-block;
@@ -87,6 +90,8 @@ img.thumb-blog {
   padding: 10px;
   font-size: 1.125em;
   margin-bottom: 100px;
+  text-align: justify;
+
 }
 
 .blog-section {
@@ -95,6 +100,7 @@ img.thumb-blog {
   padding: 10px;
   font-size: 1.125em;
   margin-bottom: 100px;
+  text-align: justify;
 }
 
 a {
