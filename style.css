@@ -23,7 +23,7 @@ body, html {
 }
 
 #headergradient {
-  height:700px;
+  height:200px;
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@ body, html {
   opacity:.5;"
 }
 #headercaption {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 40%;
   width: 100%;
@@ -44,6 +44,7 @@ body, html {
   font-size: 70px;
   font-weight: bold;
 }
+
 .content {
   max-width: 750px;
   margin:auto;
@@ -80,10 +81,21 @@ img.thumb-blog {
   margin: 10px;
   display: inline-block;
 }
+
 .text-section {
-  margin:20px;
+  margin:0px;
+  margin-top: 100px;
   padding: 10px;
   font-size: 1.125em;
+  margin-bottom: 100px;
+}
+
+.blog-section {
+  margin:0px;
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 1.125em;
+  margin-bottom: 100px;
 }
 
 a {
@@ -101,7 +113,8 @@ p a:visited {
 p a {
   color: #2200CC;
 }
-/*Top Nav*/
+
+
 #cssmenu-top {
   position:scroll;
   top: 0;
@@ -116,9 +129,10 @@ p a {
 }
 
 #cssmenu-bottom {
-  display:flex;
-  align-items:stretch;
   position:scroll;
+  top: 0;
+  margin: 0 auto;
+  right: 0;
   width: 100%;
   z-index: 150;
   font-size: 1em;
@@ -148,13 +162,17 @@ li a {
 }
 
 li a:hover {
-  background-color: lightgreen;
-  color: black;
+  background-color: black;
+  color: white;
+}
+
+li.navlabel {
+  float:right;
 }
 
 h2 {
   color:#063EB1;
-  font-weight:100;
+  font-weight: 400;
 }
 
 h3 {
@@ -171,12 +189,21 @@ h4 {
     #headerpicture {background-attachment:scroll}
     .content {width:100%;margin-top:0}
     #headercaption span {font-size:25px;}
+    .text-section {margin:0px}
+    .blog-section {margin:0px}
+    li.navlabel {display:none;}
+    img.thumb {width:100%;margin:0 auto}
 }
 
 @media screen and (max-width: 1024px) {
   #headerpicture {background-attachment:scroll}
   .content {width:100%}
   #headercaption span {display:none;}
+  .text-section {margin:0px}
+  .blog-section {margin:0px}
+  li.navlabel {display:none;}
+  img.thumb {width:100%;margin:0 auto}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -184,5 +211,8 @@ h4 {
   .content {width:100%;margin-top:0}
   img.projects {width:100%;margin:0 auto}
   .text-section {margin:0px}
+  .blog-section {margin:0px}
   li {float:none;}
+  img.thumb {width:100%;margin:0 auto}
+
 }

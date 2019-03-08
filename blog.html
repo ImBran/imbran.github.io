@@ -10,22 +10,15 @@
     <title>Brandon Marcelle</title>
   </head>
   <body>
-    <div id="headerpicture" style="background-image:url('imageAssets/home.jpg');">
-      <div id="headergradient" style="background-image:linear-gradient(#2980B9, #6DD5FA, #FFFFFF);">
-        <div id="cssmenu-top">
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="mailto:me@brandonmarcelle.com">Email</a></li>
-          </ul>
-        </div>
-        <div id="headercaption">
-          <span>brandonmarcelle.com</span>
-        </div>
-      </div>
-    </div>
     <div class="content" onmousedown='return false;' onselectstart='return false';>
-      <div class="text-section">
+      <div id="cssmenu-top">
+        <ul>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li class="navlabel"><a href="index.html">brandonmarcelle.com</a></li>
+        </ul>
+      </div>
+      <div class="blog-section">
         <h2>Freeware. No Trials, No Pirating... Just Great Software</h2>
         <h3>November 3, 2018</h3>
         <p>So for years now I have been a huge advocate of using free services and applications, pressing for the usage of the open source movement. The community has grown exponentially and long gone are the days that a user had to be an experienced Linux user to know about the world of open source. This post will serve as a list of fantastic free open sourced tools that can rival their paid counterparts and in some cases exceed them for most everyday users.</p>
@@ -45,7 +38,7 @@
         <p><h4>Handbrake</h4></p>
         <p><a href="https://handbrake.fr" target="_blank"><img class="thumb-blog" src="https://handbrake.fr/img/logo.png" alt="handbrake" style="float:left;"></a>Handbrake is a free open source video transcoder available for Windows, Mac and Linux. Handbrake allows users to convert video from nearly every format with an easy and intuitive UI.</p>
       </div>
-      <div class="text-section">
+      <div class="blog-section">
         <h2>Windows Service Stripper</h2>
         <h3>September 22, 2018</h3>
         <p>Well, it’s been a few years since I’ve last used Windows so I thought I’d give it a whirl again in a VM instance. Thanks Oracle for Virtual Box (https://www.virtualbox.org) for an amazing free and Open Source virtualization solution.</p>
@@ -53,7 +46,7 @@
         <p>Windows is still home for a lot of packaged bloat, however. Even the Enterprise edition comes with Xbox management and integration services and tons of other useless features for people who just want a bare bones installation. </p>
         <p>I have released Windows Service Stripper as a quick and easy tool to help disabling system services, removing unwanted application packages and prevent some of its telemetry services. This tool is safe for private but not intended to be used commercially. This BAT is designed with pro and novice users in mind and requires administrative rights to run. The BAT executes in a CMD.exe window and initiates each step chosen by the user and verified through PAUSE commands. It creates a folder in /ProgramFiles with a .log file records the date and time of each commands last run. There is also an option to enable GOD MODE in C:/. This a Windows Custom folder where a shortcut for all of its built-in Administrative Tools and their descriptions for quick and easy access. WSS is available for download/pull on my GitHub projects page.</p>
       </div>
-      <div class="text-section">
+      <div class="blog-section">
         <h2>iPhone, a PC Replacement</h2>
         <h3>September 18, 2018</h3>
         <p>For two weeks this summer I did a stupid thing. I used my iPhone 7 as my daily workhorse PC while I was in between MacBook purchases, and I gotta tell ya, it wasn’t that bad. Now, which should come to no surprise, I am an apple fan. I have owned a Mac for over 14 years. But before this little experiment I would have doubted that anyone can replace a proper PC with any iOS device especially an iPhone. After my experience however, I am optimistic about the future of computing and how a unified computer experience is closer than I expected, with iOS. Here’s what happened. </p>
@@ -61,7 +54,7 @@
         <p>After a few days it felt usable. I enjoyed having everything I needed, personally and professionally, on my hip. The ability to rely solely on services (iCloud, AirPlay, AirDrop, AirPrint) was a change for me. I’m someone who likes having a music library and not relying on streaming music services. I barely used airplay and airdrop. I even already owned a monochrome AirPrint enabled printer but only powered it on when I needed it. Just as cutting the cord to a cable TV service changes your relationship with TV, going from a classic desktop/laptop setup to an iOS device comes with some disadvantages. But if your choosing to go all-in, it’s important to welcome all of its advantages and use them to their full potential. </p>
         <p>So is it time to ditch the desk? My answer for most professionals is no. But if you are someone who wouldn’t mind the limitations of being an early adopter and willing to change your relationship with a PC, then go for it.</p>
       </div>
-      <div class="text-section">
+      <div class="blog-section">
         <h2>Windows Wrenching</h2>
         <h3>August 20, 2018</h3>
         <p>These days I haven’t spent much personal time on Windows, but I still get asked to do the occasional clean/speed boost/tune-up, whatever you want to call it, on someones Windows PC. This blog post is about my technique that I use to preform these simple tasks to keep any Windows PC cleaner, quicker, and as secure as it can be without running globs of BATCH files, and keeping it fairly simple. So if you can follow these simple steps you too can tune any Windows PC to run a little faster, a little smoother, and a little more private.</p>
@@ -79,7 +72,7 @@
         <p><strong>Uninstall Toolbars.</strong> There are a lot of ways to uninstall Toolbars from many different developers of web browsers. Most toolbars are enabled through the browsers extension library. Navigate to the enabled extensions section under settings and disable all suspect toolbars. </p>
         <p><strong>Remove PUPS, Potentially Unwanted Programs.</strong> Navigate Start/Settings/Apps, choose program you want to remove and select Uninstall. Restart when all applications you wanted to be removed have been successfully uninstalled.</p>
       </div>
-      <div class="text-section">
+      <div class="blog-section">
         <h2>Personal Assistant Siri</h2>
         <h3>July 22, 2018</h3>
         <p>Like most people, I don’t answer my phone unless I recognize the number or am expecting a call. And with iOS’ voicemail transcribe service, it’s even easier to be an introverted recluse. Hooray! And if you’re a self depreciating introverted recluse like me, you don’t like the sound of your recorded voice. Luckily, not only can iOS transcribe your voicemails, but Siri can even record the greeting to your voicemail box.</p>
@@ -95,7 +88,7 @@
         <p><i>Navigate to [Phone>Voicemail>Greeting]</i></p>
         <p>Enjoy Siri as your new PA!</p>
       </div>
-      <div class="text-section">
+      <div class="blog-section">
         <h2>MOS Training</h2>
         <h3>June 12, 2018</h3>
         <p>Recently a lot of people have been asking me "how can a jumpstart my career in IT?", and to be honest there is only one real answer to that. "Get some certs!" Now, certification training is beyond overwhelming. There are certs for everything. Security, Networking, programming... and while the certificate training alone won't hand you a job, it will add a <a href="https://www.microsoft.com/en-us/learning/certification-benefits.aspx" target="_blank">professional edge</a> and a globally recognized industry endorsed skill set to your resume. For instance the easiest and first certification anyone interested in boosting their administrative or business career (even outside of IT) is obtaining a <a href="https://www.microsoft.com/en-us/learning/mos-certification.aspx" target="_blank">Microsoft Office Specialist Certification</a>. The MOS is designed to give you the oppurtunity to demonstrate strong skill levels in all of Microsoft Office's Suite and 'Holding a MOS certification can earn an entry-level business employee as much as $16,000 more in annual salary than uncertified peers.'</p>
@@ -118,11 +111,10 @@
 -->
       <div id="cssmenu-bottom">
         <ul>
-          <li><a href="mailto:me@brandonmarcelle.com">Email</a></li>
-          <li><a href="contactRaw.html">Contact</a></li>
-          <li><a href="keybase.html">Keybase</a></li>
-          <li><a href="https://github.com/ImBran" target="_blank">GitHub</a></li>
-          <li><a href="https://vsco.co/brankm/images/1" target="_blank">VSCO</a></li>
+          <li><a href="mailto:me@brandonmarcelle.com">message</a></li>
+          <li><a href="keybase.html">keybase public key</a></li>
+          <li><a href="https://github.com/ImBran" target="_blank">github</a></li>
+          <li><a href="https://vsco.co/brankm/images/1" target="_blank">vsco</a></li>
         </ul>
       </div>
     </div>
