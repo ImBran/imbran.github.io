@@ -52,7 +52,7 @@ body, html {
   max-width: 750px;
   margin: auto;
   background: #ffffff;
-  background-color: #f9f9f9;
+  background-color: inherit;
   font-family:inherit;
   letter-spacing: 1px;
   line-height: 1.6;
@@ -70,13 +70,16 @@ img.projects {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 25px;
 }
+img.projects:hover {
+  box-shadow:none;
+}
 
 img.thumb {
-  width:230px;
+  width:100%;
   padding: 3px;
   margin: 10px;
   display: inline-block;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0 auto;
 }
 
 img.thumb-blog {
