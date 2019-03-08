@@ -7,6 +7,7 @@ body, html {
   letter-spacing: 1px;
   font-size: 1em;
   text-align: justify;
+  background-color: #77777;
 }
 
 /** {
@@ -49,15 +50,16 @@ body, html {
 
 .content {
   max-width: 750px;
-  margin:auto;
+  margin: auto;
   background: #ffffff;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   font-family:inherit;
   letter-spacing: 1px;
   line-height: 1.6;
   transition: 0.9s;
   padding: 0 0 0;
   text-align: left;
+  margin-top: 0;
 }
 
 img.projects {
@@ -86,20 +88,16 @@ img.thumb-blog {
 
 .text-section {
   margin:0px;
-  margin-top: 100px;
   padding: 10px;
   font-size: 1.125em;
-  margin-bottom: 100px;
   text-align: justify;
 
 }
 
 .blog-section {
   margin:0px;
-  margin-top: 100px;
-  padding: 10px;
+  padding: 10px 10px 100px;
   font-size: 1.125em;
-  margin-bottom: 100px;
   text-align: justify;
 }
 
@@ -131,11 +129,12 @@ p a {
   font-weight: 600;
   letter-spacing:5px;
   opacity: .7;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 #cssmenu-bottom {
   position:scroll;
-  display: flex;
+  display:inline-block;
   top: 0;
   margin: 0 auto;
   right: 0;
@@ -145,6 +144,8 @@ p a {
   font-weight: 600;
   letter-spacing:5px;
   opacity: .7;
+  border-top: 1px solid #c7c7c7;
+  text-align: center;
 }
 
 ul {
@@ -176,19 +177,32 @@ li.navlabel {
   float:right;
 }
 
+h1 {
+  text-align: left;
+}
 h2 {
   color:#063EB1;
   font-weight: 400;
+  text-align: left;
 }
 
 h3 {
   color:gray;
   font-weight:100;
+  text-align: left;
 }
 
 h4 {
   color:black;
   font-weight: 500;
+  text-align: left;
+}
+
+#footer {
+   position:scroll;
+   bottom:0;
+   width:100%;
+   height:100px;
 }
 
 @media only screen and (max-device-width:1024px) {
@@ -207,9 +221,7 @@ h4 {
   #headercaption span {display:none;}
   .text-section {margin:0px}
   .blog-section {margin:0px}
-  li.navlabel {display:none;}
   img.thumb {width:100%;margin:0 auto}
-
 }
 
 @media screen and (max-width: 600px) {
@@ -218,8 +230,8 @@ h4 {
   img.projects {width:100%;margin:0 auto}
   .text-section {margin:0px}
   .blog-section {margin:0px}
-  #cssmenu-bottom {display:inherit;}
-  #cssmenu-bottom li {float:none;}
+  #cssmenu-bottom {display:inherit}
+  #cssmenu-bottom li {float:none}
   #cssmenu-bottom li {
     border: 1px solid #2B1B17;
     border-radius: 25px;
@@ -230,5 +242,5 @@ h4 {
     border-radius: 25px;
   }
   img.thumb {width:100%;margin:0 auto}
-
+  li.navlabel {display:none;}
 }
