@@ -176,7 +176,26 @@ h4 {
 }
 
 code{
-  background-color:#FAEBD7;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p.codeblock{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p.card-section {
+  border: 1px solid gray;
+  padding: 14px 14px 5px 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 @media only screen and (max-device-width:1024px) {
