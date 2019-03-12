@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html oncontextmenu='return false' onmousedown='return false;' onselectstart='return false'>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,11 @@
     <title>Brandon Marcelle</title>
   </head>
   <body>
+    <script>
+      function noShareAlert() {
+        alert("Please, do not share or distribute my personal pictures.");
+      }
+    </script>
     <div id="cssmenu-top">
       <ul>
         <li><a href="blog.html">blog</a></li>
@@ -18,9 +23,9 @@
       </ul>
     </div>
     <div style="background-color: #f9f9f9;">
-      <div class="content" onmousedown='return false;' onselectstart='return false';>
+      <div class="content">
         <div class="text-section">
-          <img src="imageAssets/family.jpg" class="thumb">
+          <img src="imageAssets/family.jpg" class="thumb" oncontextmenu='noShareAlert();return false'>
           <p>Hi, I'm Brandon Marcelle. I am an I.T. professional located in Southeastern Pennsylvania. You can find information on me and my projects here and through other services on the web available in the links provided. I am currently knee deep in iOS Development educational courses.</p>
         </div>
       </div>
