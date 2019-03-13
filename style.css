@@ -3,11 +3,10 @@ body, html {
   font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #2B1B17;
-  background-color: white;
+  background-color: #f9f9f9;
   letter-spacing: 1px;
   font-size: 1em;
   text-align: justify;
-  background-color: #77777;
 }
 
 /** {
@@ -17,8 +16,7 @@ body, html {
 .content {
   max-width: 750px;
   margin: auto;
-  background: #ffffff;
-  background-color: inherit;
+  background-color: #f9f9f9;
   font-family:inherit;
   letter-spacing: 1px;
   line-height: 1.6;
@@ -115,6 +113,7 @@ p a {
   letter-spacing:5px;
   opacity: .7;
   border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
   text-align: center;
 }
 
@@ -189,13 +188,15 @@ p.codeblock{
   font-family: monospace;
   padding: 5px;
   border-radius: 5px;
+  text-align: left;
 }
 
-p.card-section {
+div.card-section {
   border: 1px solid gray;
   padding: 14px 14px 5px 5px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 40px;
 }
 
 @media only screen and (max-device-width:1024px) {
