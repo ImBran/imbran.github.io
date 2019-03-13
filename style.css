@@ -176,16 +176,16 @@ h4 {
 }
 
 code{
-  background-color: black;
-  color: white;
+  background-color: #FFF7D5;
+  color: black;
   font-family: monospace;
   padding: 5px;
   border-radius: 5px;
 }
 
 p.codeblock{
-  background-color: black;
-  color: white;
+  background-color: #FFF7D5;
+  color: black;
   font-family: monospace;
   padding: 5px;
   border-radius: 5px;
