@@ -202,6 +202,7 @@ div.card-section {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-top: 40px;
   overflow: inherit;
+  background-color: white;
 }
 
 @media only screen and (max-device-width:1024px) {
