@@ -10,7 +10,7 @@
     <title>Brandon Marcelle</title>
   </head>
   <body>
-    <div id="cssmenu-bottom">
+    <div id="cssmenu-top" style="position:fixed;">
       <ul>
         <li><a href="mailto:me@brandonmarcelle.com">message</a></li>
         <li><a href="blog.html">blog</a></li>
@@ -18,7 +18,7 @@
       </ul>
     </div>
     <div style="background-color: #f9f9f9;">
-      <div class="content">
+      <div class="content" style="margin-top:50px;">
         <div class="blog-section">
           <h2>Access Apple TV4/4k Filesystem Information</h2>
           <h3>December 9, 2018</h3>
@@ -32,6 +32,8 @@
             <p><strong>Extract tarball</strong></p>
             <p class="codeblock">You can export the data tarball immediately to a device with AirDrop (recommended) or it will be saved to be shared later in Settings>General>Privacy>Analytics Data named sysdiagnose_[DATE_TIME_Apple_tvOS***]. Extract the .tar.gz.</p>
             <img src="imageAssets/tar.png" class="thumb">
+            <div class="caption">Finder window showing contents of extracted sysdiagnose_[DATE_TIME_Apple_tvOS***].tar.gz
+            </div>
             <p><strong>Open disks.txt</strong></p>
             <p class="codeblock">Inside of the extracted folder open "disks.txt".</p>
           </div>
