@@ -15,7 +15,7 @@ body, html {
 
 .content {
   max-width: 750px;
-  margin: auto;
+  margin: 0 auto;
   background-color: #f9f9f9;
   font-family:inherit;
   letter-spacing: 1px;
@@ -23,10 +23,14 @@ body, html {
   transition: 0.9s;
   padding: 0 0 0;
   text-align: left;
-  margin-top: 0;
   overflow: hidden;
+  z-index: 3;
 }
 
+.main {
+  background-color: #f9f9f9;
+  z-index:1;
+}
 img.projects {
   width:200px;
   padding: 3px;
@@ -37,7 +41,7 @@ img.projects {
   transition:.5s;
 }
 img.projects:hover {
-  box-shadow: 1px 8px 15px 2px rgba(0,0,0,0.2);
+  box-shadow: 1px 8px 15px 2px rgba(0,0,0,0.1);
   transition:.4s;
 }
 
@@ -67,7 +71,7 @@ img.thumb-blog {
 
 .blog-section {
   margin:0px;
-  padding: 10px 10px 100px;
+  padding: 25px 10px 100px;
   font-size: 1.125em;
   text-align: justify;
   overflow: inherit;
@@ -114,7 +118,7 @@ p a {
   margin: 0 auto;
   right: 0;
   width: 100%;
-  z-index: 150;
+  z-index: 2;
   font-size: 1em;
   font-weight: 600;
   letter-spacing:5px;
@@ -142,6 +146,10 @@ li a {
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
+}
+
+#cssmenu-top .active {
+  color: blue;
 }
 
 li a:hover {
@@ -214,7 +222,35 @@ div.caption {
   color:gray;
   text-align:right;
 }
+/*_____________________________________________-test _________________________-*/
+.sidenav {
+  width: 200px;
+  position: fixed;
+  left:0;
+  z-index: 1;
+  background: inherit;
+  overflow-y: scroll;
+  padding: 8px 0;
+  text-align: left;
+  height: inherit;
+  margin: 10px 5px
+}
+/*media query
+.sidenav {width:100%;position:relative;left:auto;}*/
 
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #2200CC;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+  text-decoration:underline;
+}
+/*__________________#bdc3c7_________________________________________________________*/
 @media only screen and (max-device-width:1024px) {
     .content {width:100%;margin-top:0}
     .text-section {margin:0px}
@@ -229,6 +265,10 @@ div.caption {
   .blog-section {margin:0px}
   img.thumb {width:100%;margin:0 auto}
 }
+@media screen and (max-width: 1132px) {
+  .sidenav {width:100%;position:relative;left:auto;margin-top:auto;}
+  .sidenav a {border:.5px solid;border-radius:5px;margin: 10px 5px;}
+}
 
 @media screen and (max-width: 600px) {
   .content {width:100%;margin-top:0}
@@ -241,7 +281,7 @@ div.caption {
     border: 1px solid #2B1B17;
     border-radius: 5px;
     margin: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   }
   #cssmenu-bottom li a:hover {
     border-radius: 5px;
