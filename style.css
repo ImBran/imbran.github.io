@@ -246,7 +246,7 @@ div.blogbreak {
 /*_____________________________________________-test _________________________-*/
 .sidenav {
   width: 200px;
-  position: fixed;
+  position:absolute;
   left:0;
   z-index: 1;
   background: inherit;
@@ -264,9 +264,7 @@ div.blogbreak {
   font-size: 12px;
   color: #2B1B17;
   display: block;
-  border-radius:5px;
-  border: .5px solid black;
-  text-align: center;
+  background-color: inherit;
 }
 
 #blogbreak {
@@ -294,7 +292,13 @@ div.blogbreak {
 }
 @media screen and (max-width: 1132px) {
   .sidenav {width:100%;position:relative;left:auto;margin-top:auto;}
-  .sidenav a {margin:10px 5px;}
+  .sidenav a {margin:10px 5px;
+    background-color:white;
+    border: .5px solid black;
+    border-radius:5px;
+    border:.5px solid black;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
