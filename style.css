@@ -85,7 +85,13 @@ a {
   color: black;
   text-decoration: none;
 }
-
+p {
+  font: 400 1em "freight-text-pro", Georgia, Times, serif;
+  line-height: 1.5;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color .125s ease-in-out;
+}
 p a:hover {
   text-decoration: underline;
 }
@@ -98,6 +104,9 @@ p a {
 }
 
 #cssmenu-top {
+  font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2B1B17;
   position:scroll;
   top: 0;
   margin: 0 auto;
@@ -165,15 +174,19 @@ h1 {
   text-align: left;
 }
 h2 {
-  color:#063EB1;
-  font-weight: 400;
+  color:black;
   text-align: left;
+  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+  font-weight: 900
 }
 
 h3 {
+  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
   color:gray;
-  font-weight:100;
+  font-weight: normal;
   text-align: left;
+  text-transform: uppercase;
+  font-size:.75em;
 }
 
 h4 {
@@ -222,6 +235,14 @@ div.caption {
   color:gray;
   text-align:right;
 }
+div.blogbreak {
+    height: 600px;
+    background-image: url("imageAssets/mbooks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /*_____________________________________________-test _________________________-*/
 .sidenav {
   width: 200px;
@@ -229,11 +250,10 @@ div.caption {
   left:0;
   z-index: 1;
   background: inherit;
-  overflow-y: scroll;
   padding: 8px 0;
   text-align: left;
   height: inherit;
-  margin: 10px 5px
+  margin-top: 40px;
 }
 /*media query
 .sidenav {width:100%;position:relative;left:auto;}*/
@@ -242,8 +262,15 @@ div.caption {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 12px;
-  color: #2200CC;
+  color: #2B1B17;
   display: block;
+  border-radius:5px;
+  border: .5px solid black;
+  text-align: center;
+}
+
+#blogbreak {
+  background-repeat: no-repeat;
 }
 
 .sidenav a:hover {
@@ -267,7 +294,7 @@ div.caption {
 }
 @media screen and (max-width: 1132px) {
   .sidenav {width:100%;position:relative;left:auto;margin-top:auto;}
-  .sidenav a {border:.5px solid;border-radius:5px;margin: 10px 5px;}
+  .sidenav a {margin:10px 5px;}
 }
 
 @media screen and (max-width: 600px) {
