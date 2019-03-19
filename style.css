@@ -9,9 +9,9 @@ body, html {
   text-align: justify;
 }
 
-/** {
+* {
   border: 1px solid black;
-}*/
+}
 div.headpicture {
     height:700px;
     background-image: url("");
@@ -51,16 +51,12 @@ img.projects:hover {
 
 img.thumb {
   width:100%;
-  padding: 3px;
-  margin: 10px;
   display: inline-block;
-  margin: 0 auto;
 }
 
 img.thumb-blog {
   height:70px;
   padding: 3px;
-  margin: 10px;
   display: inline-block;
 }
 
@@ -175,6 +171,7 @@ p a {
 #cssmenu-bottom li.navlabel {
   float:right;
 }
+
 h1, h2, h3, h4, h5 {
 	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 	font-weight: normal;
