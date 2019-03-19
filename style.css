@@ -9,9 +9,10 @@ body, html {
   text-align: justify;
 }
 
-* {
+/** {
   border: 1px solid black;
-}
+}*/
+
 div.headpicture {
     height:700px;
     background-image: url("");
@@ -39,12 +40,14 @@ div.headpicture {
   background-color: #f9f9f9;
   z-index:1;
 }
+
 img.projects {
   width:365px;
   padding:2px;
   display: inline-block;
   transition:.5s;
 }
+
 img.projects:hover {
   transition:.4s;
 }
@@ -64,10 +67,10 @@ img.thumb-blog {
   margin:0px;
   padding: 10px;
   font-size: 1.125em;
+  overflow: hidden;
   text-align: justify;
-  overflow: inherit;
-
 }
+
 
 .blog-section {
   margin:0px;
@@ -76,6 +79,7 @@ img.thumb-blog {
   text-align: justify;
   overflow: inherit;
 }
+
 .blog-section p {
   font-family: serif;
   text-align: left;
@@ -85,6 +89,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
 p {
   font-family: sans-serif;
   line-height: 1.5;
@@ -92,6 +97,7 @@ p {
   -webkit-font-smoothing: antialiased;
   transition: background-color .125s ease-in-out;
 }
+
 p a:hover {
   text-decoration: underline;
 }
@@ -99,6 +105,7 @@ p a:hover {
 p a:visited {
   color: #551A8B;
 }
+
 p a {
   color: #2200CC;
 }
@@ -181,6 +188,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   text-align: left;
 }
+
 h2 {
   color:black;
   text-align: left;
@@ -236,12 +244,14 @@ div.card-section {
   overflow: inherit;
   background-color: white;
 }
+
 div.caption {
   font-size:9px;
   background-color:white;
   color:gray;
   text-align:right;
 }
+
 div.blogbreak {
     height:700px;
     background-image: url("");
@@ -263,10 +273,8 @@ div.blogbreak {
   margin-top: 40px;
   /*position: -webkit-sticky;
   position: sticky;
-  top: 0;*/
+  top: 0; Navigation to top with continued scrolling for old version.*/
 }
-/*media query
-.sidenav {width:100%;position:relative;left:auto;}*/
 
 #sidenav li a {
   padding: 6px 8px 6px 16px;
@@ -284,6 +292,7 @@ div.blogbreak {
   overflow: hidden;
   background-color: inherit;
 }
+
 #sidenav li a:hover {
   text-decoration: underline;
 }
@@ -296,7 +305,8 @@ div.blogbreak {
   color: #064579;
   text-decoration:underline;
 }
-/*__________________#bdc3c7_________________________________________________________*/
+
+/*Low resolution, Tablet and phone screens*/
 @media only screen and (max-device-width:1024px) {
     .content {width:100%;margin-top:0}
     .text-section {margin:0px}
@@ -311,6 +321,7 @@ div.blogbreak {
   .blog-section {margin:0px}
   img.thumb {width:100%;margin:0 auto}
 }
+
 @media screen and (max-width: 1132px) {
   #sidenav {width:100%;position:relative;left:auto;margin-top:auto;}
   #sidenav a {margin:10px 5px;
