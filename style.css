@@ -63,12 +63,13 @@ img.thumb-blog {
   display: inline-block;
 }
 
-.text-section {
+div.text-section {
   margin:0px;
   padding: 10px;
   font-size: 1.125em;
   overflow: hidden;
   text-align: justify;
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 }
 
 
