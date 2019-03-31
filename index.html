@@ -21,33 +21,26 @@
 <!--index.html START-->
 <hr>
 <h2><a id="Swift_and_iOS_Developement_Notes_Cheat_Sheet_0"></a>Swift and iOS Developement Notes Cheat Sheet</h2>
-<h6><a id="March_28_2019_1"></a>March 28, 2019</h6>
-<p>This is a grab and go Intro to Swift Development cheat sheet.</p>
-<h3><a id="Create_Variables_3"></a>Create Variables</h3>
-<pre><code class="language-swift"><span class="hljs-keyword">var</span> variable_name : variableType = value
-</code></pre>
-<p>Variable values can be reassigned in code after declaration:</p>
-<pre><code class="language-swift">variable_name = value
-</code></pre>
-<h3><a id="Create_Constants_11"></a>Create Constants</h3>
-<pre><code class="language-swift"><span class="hljs-keyword">let</span> const_name : constantType = value
-</code></pre>
-<p>Constant value cannot be reassigned a new value. Result will error.</p>
-<h3><a id="Create_an_Array_16"></a>Create an Array</h3>
-<pre><code class="language-swift"><span class="hljs-keyword">var</span> array_name = [<span class="hljs-string">"item 1"</span>, <span class="hljs-string">"item 2"</span>, <span class="hljs-string">"item 3"</span>]
-</code></pre>
-<p>Array item called sytax:</p>
-<pre><code class="language-swift">array_name[array_item]
-</code></pre>
-<h3><a id="Create_Shake_Gesture_Reaction_in_Swift_24"></a>Create Shake Gesture Reaction in Swift</h3>
-<pre><code class="language-swift"><span class="hljs-keyword">override</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">motionEnded</span><span class="hljs-params">(<span class="hljs-number">_</span> motion: UIEvent.EventSubtype, with event: UIEvent?)</span></span> {
-    <span class="hljs-type">CODE</span>
-    }
-</code></pre>
-<h3><a id="Declare_Function_30"></a>Declare Function</h3>
-<pre><code class="language-swift"><span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">function_name</span> <span class="hljs-params">()</span></span> {
-    <span class="hljs-type">CODE</span>
-    }
+<pre><code class="language-swift"><span class="hljs-comment">// Declare Variable</span>
+<span class="hljs-keyword">var</span> variable_name : variableType = value
+
+<span class="hljs-comment">// Declare Constants</span>
+<span class="hljs-keyword">let</span> const_name : constantType = value
+
+<span class="hljs-comment">// Array</span>
+<span class="hljs-keyword">var</span> array_name = [<span class="hljs-string">"item 1"</span>, <span class="hljs-string">"item 2"</span>, <span class="hljs-string">"item 3"</span>]
+
+<span class="hljs-comment">// Create Shake Gesture Reaction in Swift</span>
+<span class="hljs-keyword">override</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">motionEnded</span><span class="hljs-params">(<span class="hljs-number">_</span> motion: UIEvent.EventSubtype, with event: UIEvent?)</span></span> {
+<span class="hljs-type">CODE</span>
+}
+<span class="hljs-comment">// Create a switch</span>
+<span class="hljs-keyword">let</span> myAge = <span class="hljs-number">33</span>
+<span class="hljs-keyword">switch</span> (myAge)
+<span class="hljs-keyword">case</span> (<span class="hljs-number">0</span>..&lt;<span class="hljs-number">33</span>):
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"You're not old at all"</span>)
+<span class="hljs-keyword">default</span>:
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"You're over the hill."</span>)
 </code></pre>
 <hr>
 <h2><a id="Learning_Markdown_37"></a>Learning Markdown</h2>
