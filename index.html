@@ -22,13 +22,14 @@
 <hr>
 <h2><a id="Swift_and_iOS_Developement_Notes_Cheat_Sheet_0"></a>Swift and iOS Developement Notes Cheat Sheet</h2>
 <pre><code class="language-swift"><span class="hljs-comment">// Declare Variable</span>
-<span class="hljs-keyword">var</span> variable_name : variableType = value
+<span class="hljs-keyword">var</span> myAge : <span class="hljs-type">Int</span> = <span class="hljs-number">33</span>
 
 <span class="hljs-comment">// Declare Constants</span>
-<span class="hljs-keyword">let</span> const_name : constantType = value
+<span class="hljs-keyword">let</span> myName : <span class="hljs-type">String</span> = <span class="hljs-type">Brandon</span>
 
 <span class="hljs-comment">// Array</span>
-<span class="hljs-keyword">var</span> array_name = [<span class="hljs-string">"item 1"</span>, <span class="hljs-string">"item 2"</span>, <span class="hljs-string">"item 3"</span>]
+<span class="hljs-keyword">var</span> petNames = [<span class="hljs-string">"Drake"</span>, <span class="hljs-string">"Mika"</span>, <span class="hljs-string">"Sasha"</span>, <span class="hljs-string">"Kirra"</span>]
+<span class="hljs-built_in">print</span>(petNames[<span class="hljs-number">0</span>]) <span class="hljs-comment">// print Drake in console</span>
 
 <span class="hljs-comment">// Create Shake Gesture Reaction in Swift</span>
 <span class="hljs-keyword">override</span> <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">motionEnded</span><span class="hljs-params">(<span class="hljs-number">_</span> motion: UIEvent.EventSubtype, with event: UIEvent?)</span></span> {
