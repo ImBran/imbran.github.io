@@ -1641,7 +1641,8 @@ html, body {
 body {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 2rem
+    line-height: 2rem;
+    max-width: 600px
 }
 
 ul, ol {
@@ -1704,7 +1705,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin-top: 0
 }
-
 h1 {
     line-height: 3rem;
     font-size: 2.0571429rem;
@@ -3075,8 +3075,9 @@ img {
     pointer-events: none
 }
 
-#preview .table {
-    width: auto
+#preview  {
+    width: auto;
+    max-width:600px;
 }
 
 .ui-resizable {
