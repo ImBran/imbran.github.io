@@ -1,3 +1,6 @@
+* {
+  border:1px solid;
+}
 .topnav {
   overflow: hidden;
   background-color: inherit;
@@ -8,7 +11,6 @@
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
