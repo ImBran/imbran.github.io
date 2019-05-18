@@ -4972,7 +4972,7 @@ body {
         width: 100%
     }
     @media screen and (max-width: 600px) {
-      .topnav a {display: none;}
+      .topnav a {display: none;font-size: x-large;margin-top:10px;margin-bottom:10px;}
       .topnav a.icon {
         float: none;
         display: block;
