@@ -1,0 +1,341 @@
+/*
+Color Assets: red #FF3838
+*/
+* {
+  box-sizing: border-box;
+  transition-property: inherit;
+  transition-duration: inherit;
+  transition-timing-function: inherit;
+  transition-delay: inherit;
+}
+header {
+  background-color: #E3E3E3;
+  top:0;
+  left:0;
+  right:0;
+}
+body, html {
+  font-family: sans-serif;
+  font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin: 0 auto;
+  background-color: white;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  overflow-x: hidden;
+}
+img.logo {
+  display: block;
+  width:auto;
+  margin-right: auto;
+  height: 80px;
+}
+img.podcast {
+  width:200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.navigation {
+  top:0;
+  width: 100%;
+  background-color: rgba(255,255,255.8);
+  z-index: 150;
+  padding: 20px;
+  margin: 0 auto;
+}
+ul.navigation {
+  list-style-type: none;
+  text-align: left;
+  color:black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.navigation li a{
+  font-size: 30;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+ul.navigation li {
+  display: inline;
+  float: left;
+}
+ul.navigation li a:hover {
+  color: rgba(255,0,0,.7);
+}
+.topnav {
+  overflow: hidden;
+  background-color: inherit;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: inherit;
+color: black;
+}
+
+.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.topnav .icon {
+display: none;
+}
+#hoursDisplay {
+  float:right;
+  font-size: 30;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+#hours {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+main {
+  margin-top:50px;
+  display: block;
+  margin-bottom:100px;
+}
+div.bg {
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  height: 200px;
+  max-width: 700px;
+  /*background-image: url("../images/banner.jpg"); in html file*/
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+}
+div.bg:hover {
+  background-color: white;
+}
+div.bg p {
+  color: black;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+svg#sm {
+  box-sizing: content-box;
+  display: block;
+  margin: 10px 10px;
+  display: block;
+  background-color: rgba(255,0,0,.7);
+  border-radius: 50%;
+  padding:10px;
+}
+svg#sm:hover {
+  background-color:red;
+}
+div.sm {
+  z-index: 150;
+  background-color: transparent;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
+div.content {
+  margin: 10px auto;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  overflow: auto;
+  background-color:#F3F3F3;
+}
+p {
+  line-height: 1.6;
+  padding: 10px;
+}
+div.text {
+  margin: 10px auto;
+  margin-bottom: 100px;
+  max-width: 800px;
+  overflow: auto;
+}
+div.text a {
+  color:blue;
+}
+div.shownotes {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  overflow: auto;
+  background-color:#F3F3F3;
+  line-height: 1.6;
+  font-family: serif;
+  padding: 10px;
+}
+div.contentBox {
+  background-size:cover;
+  background-position: center;
+  display: block;
+}
+a {
+  color:white;
+  text-decoration: underline;
+}
+div.info {
+  display: block;
+  margin:0 auto;
+  width: 100%;
+  overflow: auto;
+}
+footer {
+  display: inline-block;
+  color:black;
+  width:100%;
+  font-size: 12px;
+}
+footer ul {
+  vertical-align: top;
+  display: inline-block;
+  margin: 10px 40px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  top:0px;
+  color:black;
+}
+footer li {
+  color:gray;
+}
+footer li a{
+  color:gray;
+  text-decoration: none;
+}
+footer li a:hover{
+  text-decoration: underline;
+}
+ul#inf {
+  vertical-align: top;
+  display: inline-block;
+  margin: 10px 40px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  color:black;
+}
+li#inf {color:gray;font-size:}
+li#inf a {  color:gray;}
+li#inf a:hover {text-decoration: underline;color:gray;}
+.news {
+	max-width: 700px;
+	height: 260px;
+	padding: 0px 7px;
+	position: relative;
+}
+.news .news-title {
+	float: left;
+	position: relative;
+	z-index: 10;
+	margin: 10px 20px;
+	padding: 10px;
+}
+.news .news-title h2 {
+	color: #FFF;
+	/*font-weight: lighter;
+  font-family: 'Poiret One', cursive;';*/
+  font-weight: bolder:400;font-family:sans-serif;
+  font-size: 40px;
+	padding: 10px;
+	display: inline;
+	word-wrap: break-word;
+  line-height: 2.1;
+}
+.news .news-title h3 {
+	color: #FFF;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px;
+	padding: 10px;
+	display: inline;
+	word-wrap: break-word;
+  line-height: 2.1;
+}
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: none;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*---------------------------------------------------------------------------------------------------------------------------------DROPDOWN TEST---------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:600px) {
+  div.navigation {width:100%;height: auto;}
+  img.logo {width:100%;height: auto;padding: 0;}
+  div.main {margin: 0;}
+  footer {padding-bottom:100px;}
+  footer ul{text-align:left;vertical-align:top;width:20%;}
+  ul.navigation li {float:none;margin-top:10px;color:white;}
+  ul.navigation li a {background-color: rgba(255,0,0);margin-top:10px;color:white;}
+  #hoursDisplay {border:none;border-radius:0;float:none;}
+  body, html {  background-image: url();}
+  div.content {padding: 0;}
+}
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;font-size: x-large;}
+  .topnav a.icon {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    float: none;
+    position: relative;
+    top: 0;
+    display:block;
+    text-align:center;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

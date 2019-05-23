@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false" ondragstart="return false" >
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Car-Mira's Deli Boothwyn, PA. Sandwiches, hoagies, catering.">
+    <meta name="keywords" content="hoagies, carmiras, car-miras, car-mira's, lunch meat, luncheon meat, cheese, sandwiches">
+    <meta name="author" content="Brandon Marcelle, brandonmarcelle.com, car-miras inc">
+    <title>brandon_marcelle.</title>
+  </head>
+  <body>
+    <header>
+    <div style="z-index: 150;margin:0 auto;background-color:#E3E3E3;">
+      <div style="max-width:1200px;margin:0 auto;">
+        <a href="index.html"><img src="images/fullLogo.png" class="logo" id="smallLogo" style=""></a>
+      </div>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="index.html">blog</a>
+      <a href="podcast.html">podcast</a>
+      <a href="about.html">about</a>
+      <a href="contribute.html" style="cursor: not-allowed;">contribute</a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  </div>
+</header>
+  <main>
+    <div class="text">
+      <h2><a id="Access__TV44k_Filesystem_Information_41"></a>Access  TV4/4k Filesystem Information</h2>
+      <h6><a id="DEC_9_2018__3_MIN_READ_42"></a>DEC 9, 2018 • 3 MIN READ</h6>
+      <p>The Apple TV has been one of my staple Apple Products every generation of since its inception in 2006, and quite frankly its the only streaming device that I would recommend to anyone that has at least one apple product. I use it as a streaming device in two rooms for TV and also it provides my house with wall to wall music using Airplay to all of my TVs.</p>
+      <p>To this day my /r/AppleTV posts have been my most successful on reddit including one about the Apple TV Secret Menu Options. Most of these “secret menus” are for development and trouble shooting but some of the information stored should be displayed such as how much storage is available or used.</p>
+      <p>The new Apple TV 4/4k has been available in 2 storage sizes, 32GB and 64GB since its announcement in September 2015.  It is understood by owners that the space in the Apple TV is very hard to fill being a service streaming and cloud retrieving device, the 64gb in particular being ostracized for being too big and impossible to fill. In any matter, people love to have control over their devices and power users want to be able to view the filesystem information. Now, there is none of this information openly displayed in the settings menu but with a little finesse, you can view all of the system analytics data including the used and available storage in a few simple steps.</p>
+      <p><strong><em>You will need:</em></strong><br>
+      Apple TV 4/4k with Siri remote, an airdrop capable device on the same network as your Apple TV, .tar extraction capability (Mac computer or PC with extraction software).</p>
+      <h3><a id="Run_Analytics_52"></a>Run Analytics</h3>
+      <pre><code>Hold down the play/pause and volume down buttons for ~10 seconds and release.
+      </code></pre>
+      <p>System Analytics will run in the background and prompt you when it is completed.</p>
+      <h3><a id="Extract_tarball_56"></a>Extract tarball</h3>
+      <p>You can export the data tarball immediately to a device with AirDrop (recommended) or it will be saved to be shared later in Settings/General.Privacy/Analytics Data named sysdiagnose…</p>
+      <h3><a id="Extract_the_targz_59"></a>Extract the .tar.gz.</h3>
+      <p>Finder window showing contents of extracted 'sysdiagnose_[DATE_TIME_Apple_tvOS***].tar.gz</p>
+      <h3><a id="Open_disk_61"></a>Open disk</h3>
+      <pre><code>Inside of the extracted folder open &quot;disks.txt&quot;.
+      </code></pre>
+
+    </div>
+  </main>
+  </body>
+  <footer align="center">
+    <ul>Blog
+      <li>Here</li>
+      <li>There</li>
+    </ul>
+    <ul>Podcast
+      <li><a href="">Itunes</a></li>
+      <li><a href="">Spotify</a></li>
+      <li>Overcast</li>
+    </ul>
+    <ul>Contact
+      <li><a href="mailto:support@brandonmarcelle.com?subject=Support brandonmarcelle.com&body=EMAIL LINK FROM brandonmarcelle.com">Email</a></li>
+    </ul>
+    <br>
+    ©2019 brandonmarcelle.com
+  </footer>
+</html>
