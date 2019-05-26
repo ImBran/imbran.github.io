@@ -18,6 +18,9 @@ header {
   opacity: .9;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 7px 50px 0 rgba(0,0,0,0.19);*/
 }
+#mobileLogo {
+  display: none;
+}
 body, html {
   font-family: sans-serif;
   font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
@@ -319,6 +322,8 @@ button:hover {
   #hoursDisplay {border:none;border-radius:0;float:none;}
   body, html {  background-image: url();}
   div.content {padding: 0;}
+  #mobileLogo {display: block;}
+  #mainLogo {display: none;}
 }
 @media screen and (max-width: 600px) {
   .topnav a {display: none;font-size: x-large;}
