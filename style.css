@@ -322,7 +322,6 @@ button:hover {
   #hoursDisplay {border:none;border-radius:0;float:none;}
   body, html {  background-image: url();}
   div.content {padding: 0;}
-  #mobileLogo {display: block;}
   #mainLogo {display: none;}
 }
 @media screen and (max-width: 600px) {
