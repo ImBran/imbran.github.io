@@ -1,6 +1,4 @@
-/*
-Color Assets: red #FF3838
-*/
+/*Color Assets: red #FF3838*/
 * {
   box-sizing: border-box;
   transition-property: inherit;
@@ -37,11 +35,16 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+h1 {
+  font-family: sans-serif;
+  letter-spacing:-2.2px;
+}
 img.logo {
   display: block;
   width:auto;
   margin-right: auto;
   height: 80px;
+  margin-left:13px;
 }
 img.podcast {
   width:200px;
@@ -51,37 +54,6 @@ img.podcast {
   margin-bottom: 40px;
 }
 
-.navigation {
-  top:0;
-  width: 100%;
-  background-color: rgba(255,255,255.8);
-  z-index: 150;
-  padding: 20px;
-  margin: 0 auto;
-}
-ul.navigation {
-  list-style-type: none;
-  text-align: left;
-  color:black;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-ul.navigation li a{
-  font-size: 30;
-  color: black;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-}
-ul.navigation li {
-  display: inline;
-  float: left;
-}
-ul.navigation li a:hover {
-  color: rgba(255,0,0,.7);
-}
 .topnav {
   overflow: hidden;
   background-color: inherit;
@@ -93,11 +65,17 @@ ul.navigation li a:hover {
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: gray;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.topnav .contacta {
+  float:right;
+  padding: 0px 16px;
+
 }
 
 .topnav a:hover {
@@ -194,6 +172,8 @@ div.text {
   margin-bottom: 100px;
   max-width: 800px;
   overflow: auto;
+  text-align: left;
+  padding: 30px;
 }
 div.text a {
   color:blue;
@@ -330,6 +310,8 @@ button:hover {
     float: none;
     display: block;
   }
+  .topnav .contacta {
+    padding: 14px 16px;
 }
 
 @media screen and (max-width: 600px) {
