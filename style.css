@@ -7,7 +7,8 @@
   transition-delay: inherit;
 }
 header {
-  background-color: #E3E3E3;
+  border-bottom: .5px solid;
+  background-color: white;
   top:0;
   left:0;
   right:0;
@@ -16,9 +17,7 @@ header {
   opacity: .9;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 7px 50px 0 rgba(0,0,0,0.19);*/
 }
-#mobileLogo {
-  display: none;
-}
+
 body, html {
   font-family: sans-serif;
   font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
@@ -39,6 +38,15 @@ h1 {
   font-family: sans-serif;
   letter-spacing:-2.2px;
 }
+h6 {
+  margin: 0;
+  padding: 0;
+  float:left;
+  letter-spacing: -3px;
+  font-size: 30px;
+  font-weight: 500;
+
+}
 img.logo {
   display: block;
   width:auto;
@@ -46,41 +54,36 @@ img.logo {
   height: 80px;
   margin-left:13px;
 }
-img.podcast {
-  width:200px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 40px;
-}
 
 .topnav {
   overflow: hidden;
   background-color: inherit;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: gray;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: -.5px;
+}
+.topnav #title {
+  float:left;
+  letter-spacing: normal;
+  font-weight: 600;
+  padding: auto auto;
 }
 
-.topnav .contacta {
-  float:right;
-  padding: 0px 16px;
-
-}
 
 .topnav a:hover {
 background-color: inherit;
-color: black;
+color: blue;
 }
 
 .active {
@@ -91,23 +94,14 @@ color: white;
 .topnav .icon {
 display: none;
 }
-#hoursDisplay {
-  float:right;
-  font-size: 30;
-  color: black;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-}
-#hours {
-  margin: 0px;
-  padding: 0px;
-  font-weight: bold;
-}
+
 main {
   margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   margin-bottom:100px;
+  max-width: 1080px;
 }
 div.bg {
   display: block;
@@ -136,26 +130,7 @@ div.bg p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-svg#sm {
-  box-sizing: content-box;
-  display: block;
-  margin: 10px 10px;
-  display: block;
-  background-color: rgba(255,0,0,.7);
-  border-radius: 50%;
-  padding:10px;
-}
-svg#sm:hover {
-  background-color:red;
-}
-div.sm {
-  z-index: 150;
-  background-color: transparent;
-  display: block;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-}
+
 div.content {
   margin: 10px auto;
   margin-bottom: 100px;
@@ -178,16 +153,7 @@ div.text {
 div.text a {
   color:blue;
 }
-div.shownotes {
-  margin: 0 auto;
-  margin-bottom: 100px;
-  max-width: 1200px;
-  overflow: auto;
-  background-color:#F3F3F3;
-  line-height: 1.6;
-  font-family: serif;
-  padding: 10px;
-}
+
 div.contentBox {
   background-size:cover;
   background-position: center;
@@ -292,17 +258,13 @@ button:hover {
 
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:600px) {
-  div.navigation {width:100%;height: auto;}
-  img.logo {width:100%;height: auto;padding: 0;}
   div.main {margin: 0;}
   footer {padding-bottom:100px;}
   footer ul{text-align:left;vertical-align:top;width:20%;}
   ul.navigation li {float:none;margin-top:10px;color:white;}
   ul.navigation li a {background-color: rgba(255,0,0);margin-top:10px;color:white;}
-  #hoursDisplay {border:none;border-radius:0;float:none;}
   body, html {  background-image: url();}
   div.content {padding: 0;}
-  #mainLogo {display: none;}
 }
 @media screen and (max-width: 600px) {
   .topnav a {display: none;font-size: x-large;}
@@ -310,8 +272,7 @@ button:hover {
     float: none;
     display: block;
   }
-  .topnav .contacta {
-    padding: 14px 16px;
+  .topnav #title {display: none;}
 }
 
 @media screen and (max-width: 600px) {
@@ -329,6 +290,6 @@ button:hover {
     text-align: center;
   }
   header {
-    position:fixed;
+    border-bottom: none;
   }
 }
