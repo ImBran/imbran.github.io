@@ -42,8 +42,6 @@ h6 {
   margin: 0;
   padding: 0;
   float:left;
-  letter-spacing: -3px;
-  font-size: 30px;
   font-weight: 500;
 
 }
@@ -290,6 +288,6 @@ button:hover {
     text-align: center;
   }
   header {
-    border-bottom: none;
+    padding-bottom: 20px;
   }
 }
