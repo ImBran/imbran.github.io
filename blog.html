@@ -14,9 +14,9 @@
   <body>
     <header>
     <div class="topnav" id="myTopnav">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="changeNavIcon()">
         <h6>Brandon Marcelle</h6>
-        <i class="fa fa-bars" style="float:right;"></i>
+        <i class="fa fa-navicon" id="mobileNavIcon" style="float:right;"></i>
       </a>
       <!--<a href="index.html" id="title">Brandon Marcelle</a>-->
       <a href="index.html" id="title">Brandon Marcelle</a>
@@ -27,12 +27,15 @@
       <a href="keybase.html">Keybase</a>
     </div>
     <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
+    function changeNavIcon() {
+      var x = document.getElementById("myTopnav");          //horizontal nav
+      var y = document.getElementById("mobileNavIcon");     //hamburger nav
+      if (x.className === "topnav") {                       //if the classname of nav is (horizontal)
+        x.className += " responsive";                       //change nav class to .responsive (vertical)
+        y.className += "fa fa-times";                       //change #mobileNavIcon class to X
       } else {
-        x.className = "topnav";
+        x.className = "topnav";                             //change #myTopnav class to .topnav
+        y.className += "fa fa-navicon";                     //change #mobileNavIcon class to hamburger
       }
     }
     </script>
