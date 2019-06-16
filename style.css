@@ -93,7 +93,6 @@ display: none;
 }
 
 main {
-  margin-top:50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -291,6 +290,7 @@ button:hover {
 
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:600px) {
+  header {}
   div.main {margin: 0;}
   footer {padding-bottom:100px;}
   footer ul{text-align:left;vertical-align:top;width:20%;}
@@ -298,7 +298,11 @@ button:hover {
   div.content {padding: 0;}
 }
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;font-size:large;}
+  .topnav a {
+    display: none;
+    font-size:large;
+    padding-bottom: 40px;
+  }
   .topnav a.icon {
     float: none;
     display: block;
@@ -307,7 +311,9 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     float: none;
     position: relative;
@@ -319,9 +325,9 @@ button:hover {
     float: none;
     display: block;
     text-align: center;
+    padding:auto;
   }
   header {
-    padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 1080px){
