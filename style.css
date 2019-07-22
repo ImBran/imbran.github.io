@@ -29,6 +29,12 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+#me {
+  width:100px;
+  border-radius:50%;
+  float:left;
+  margin:40px 10px;
+}
 h1 {
   font-family: sans-serif;
   letter-spacing:-2.2px;
@@ -316,6 +322,7 @@ button:hover {
   footer ul{text-align:left;vertical-align:top;width:20%;}
   body, html {  background-image: url();}
   div.content {padding: 0;}
+  #me {display: none;}
 }
 @media screen and (max-width: 600px) {
   .topnav a {
