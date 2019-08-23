@@ -180,9 +180,7 @@ div.smallbox {
   box-shadow: 4px 6px 8px 0 rgba(0,0,0,0.24);
   border: 1px solid lightblue;
   background-color: white;
-
-
-
+  transition: 500ms ease-in-out all;
 }
 div.smallbox a {margin:0;margin-left: 0;}
 div.smallbox:hover {
@@ -312,9 +310,7 @@ button {
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/*---------------------------------------------------------------------------------------------------------------------------------DROPDOWN TEST---------*/
 
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:600px) {
   header {}
   div.main {margin: 0;}
