@@ -15,7 +15,6 @@ header {
 }
 
 body, html {
-  font-family: sans-serif;
   font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
   color: black;
   letter-spacing: 1px;
@@ -30,14 +29,21 @@ body, html {
   overflow-x: hidden;
 }
 #me {
-  width:100px;
+  width:120px;
   border-radius:50%;
   float:left;
-  margin:40px 10px;
+  margin:40px 20px;
+  box-shadow: 4px 6px 8px 0 rgba(0,0,0,0.24);
+
 }
+
 h1 {
   font-family: sans-serif;
-  letter-spacing:-2.2px;
+  font-size: 5vw;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 3vw;
 }
 h6 {
   margin: 0;
