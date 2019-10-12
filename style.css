@@ -38,11 +38,9 @@ body, html {
 
 h1 {
   font-family: sans-serif;
-  font-size: 5vw;
 }
 h2 {
   font-family: sans-serif;
-  font-size: 3vw;
 }
 h6 {
   margin: 0;
@@ -74,7 +72,7 @@ img.logo {
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: normal;
   letter-spacing: -.5px;
 }
 .topnav #title {
@@ -99,45 +97,17 @@ display: none;
 }
 
 main {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom:100px;
   max-width: 1080px;
   width:100%;
   background-color: #fdfdfd;
 }
-div.bg {
-  display: block;
-  position: relative;
-  margin: 20px auto;
-  height: 200px;
-  max-width: 700px;
-  /*background-image: url("../images/banner.jpg"); in html file*/
-  background-position: top;
-  background-attachment: scroll;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #F3F3F3;
-  border-radius: 4px;
-}
-div.bg:hover {
-  background-color: white;
-}
-div.bg p {
-  color: black;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 div.content {
   margin: 10px auto;
-  margin-bottom: 100px;
   max-width: 1200px;
   overflow: auto;
   background-color:#f3f3f3;
@@ -147,7 +117,7 @@ p {
   padding: 10px;
 }
 div.text {
-  margin: 10px auto;
+  margin: 0 auto;
   overflow: auto;
   text-align: left;
   padding: 30px;
@@ -226,8 +196,9 @@ footer {
   font-size: 12px;
   letter-spacing: 3px;
   margin: 0 auto;
-  margin-bottom: 50px;
   text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 footer a {
   color:black;
@@ -274,33 +245,7 @@ li#inf a:hover {text-decoration: underline;color:gray;}
 	padding: 0px 7px;
 	position: relative;
 }
-.news .news-title {
-	float: left;
-	position: relative;
-	z-index: 10;
-	margin: 10px 20px;
-	padding: 10px;
-}
-.news .news-title h2 {
-	color: #FFF;
-	/*font-weight: lighter;
-  font-family: 'Poiret One', cursive;';*/
-  font-weight: bolder:400;font-family:sans-serif;
-  font-size: 40px;
-	padding: 10px;
-	display: inline;
-	word-wrap: break-word;
-  line-height: 2.1;
-}
-.news .news-title h3 {
-	color: #FFF;
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 30px;
-	padding: 10px;
-	display: inline;
-	word-wrap: break-word;
-  line-height: 2.1;
-}
+
 button {
   border: none;
   color: white;
@@ -319,11 +264,9 @@ button:hover {
 @media screen and (max-width:600px) {
   header {}
   div.main {margin: 0;}
-  footer {padding-bottom:100px;}
-  footer ul{text-align:left;vertical-align:top;width:20%;}
   body, html {  background-image: url();}
   div.content {padding: 0;}
-  #me {display: none;}
+  #me {display: block;width:100%;border-radius: 0;margin:0;box-shadow:none;}
 }
 @media screen and (max-width: 600px) {
   .topnav a {
