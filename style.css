@@ -37,10 +37,15 @@ body, html {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-stretch: condensed;
+  font-size: 36px;
 }
 h2 {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-stretch: condensed;
+  font-size: 40px;
+
 }
 h6 {
   margin: 0;
@@ -84,7 +89,7 @@ img.logo {
 
 .topnav a:hover {
 background-color: inherit;
-color: blue;
+color: rgb(10,132,255);
 }
 
 .active {
@@ -108,13 +113,13 @@ main {
 
 div.content {
   margin: 10px auto;
+  margin-bottom: 100px;
   max-width: 1200px;
   overflow: auto;
   background-color:#f3f3f3;
 }
 p {
   line-height: 1.6;
-  padding: 10px;
 }
 div.text {
   margin: 0 auto;
@@ -130,6 +135,8 @@ div.contentBox {
   background-size:cover;
   background-position: center;
   display: block;
+  background-repeat: no-repeat;
+  height:600px;
 }
 a {
   color:white;
@@ -161,7 +168,7 @@ div.smallbox a {margin:0;margin-left: 0;}
 div.smallbox:hover {
   border-radius: 5px;
   display: inline-block;
-  color:black;
+  color:rgb(10,132,255);
   transition:.2s;
   box-shadow: none;
   border: 1px solid #f7f9f9;
@@ -199,13 +206,18 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
+  height: 300px;
 }
 footer a {
-  color:black;
+  color: rgb(10,132,255);
   text-decoration:none;
+  border:solid rgb(10,132,255);
+  padding:40px;
 }
 footer a:hover {
-  color: blue;
+  color: #eaeaea;
+  border:solid #eaeaea;
+  padding:40px;
 }
 footer ul {
   vertical-align: top;
@@ -217,12 +229,17 @@ footer ul {
   top:0px;
   color:black;
 }
+iframe {margin:0 auto;width:100%;}
+
 footer li {
   color:gray;
 }
 footer li a{
   color:gray;
   text-decoration: none;
+}
+ol{
+  max-width: 400px;
 }
 footer li a:hover{
   text-decoration: underline;
@@ -303,4 +320,20 @@ button:hover {
 }
 @media screen and (max-width: 1080px){
   div.smallbox {}
+}
+
+/*Dark mode*/
+@media (prefers-color-scheme: dark) {
+  body {background-color:#121212;}
+  header {background-color: #121212;border-bottom: .5px solid #171717;}
+  .topnav a {color: #eaeaea;}
+  .topnav a:hover {color: #03DAC5;}
+  .content {background-color: #03DAC5;box-shadow: 0 -2px 6px rgba(0, 0, 0, 1);}
+  main {background-color:#121212;color:#eaeaea;}
+  .content .text {background-color:#181818;color:#eaeaea;}
+  .contentBox {background-color:#181818;}
+  div.smallbox {background-color:black;color:#8cabd9;}
+  div.smallbox:hover {color: #03DAC5;}
+  footer a:hover {color: #03DAC5;border: solid #03DAC5;}
+  #me {-webkit-filter: brightness(0.60);filter: brightness(0.60);}
 }
