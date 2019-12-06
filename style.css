@@ -109,6 +109,7 @@ main {
   max-width: 1080px;
   width:100%;
   background-color: #fdfdfd;
+  min-height: 100vh;
 }
 
 div.content {
@@ -123,7 +124,7 @@ p {
 }
 div.text {
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
   text-align: left;
   padding: 30px;
 }
@@ -202,22 +203,18 @@ footer {
   width:100%;
   font-size: 12px;
   letter-spacing: 3px;
-  margin: 0 auto;
+  margin:0 auto;
   text-align: center;
-  bottom: 0;
   width: 100%;
-  height: 300px;
+  bottom:0;
 }
 footer a {
-  color: rgb(10,132,255);
+  color: #eaeaea;
   text-decoration:none;
-  border:solid rgb(10,132,255);
-  padding:40px;
 }
 footer a:hover {
-  color: #eaeaea;
-  border:solid #eaeaea;
-  padding:40px;
+  color: rgb(10,132,255);
+
 }
 footer ul {
   vertical-align: top;
@@ -334,6 +331,7 @@ button:hover {
   .contentBox {background-color:#181818;}
   div.smallbox {background-color:black;color:#8cabd9;}
   div.smallbox:hover {color: #03DAC5;}
-  footer a:hover {color: #03DAC5;border: solid #03DAC5;}
+  footer a {color:#8cabd9;}
+  footer a:hover {color: #03DAC5;}
   #me {-webkit-filter: brightness(0.60);filter: brightness(0.60);}
 }
