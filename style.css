@@ -28,6 +28,7 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+
 #me {
   width:120px;
   border-radius:50%;
@@ -37,11 +38,18 @@ body, html {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-stretch: condensed;
+  font-size: 36px;
 }
+
 h2 {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  font-stretch: condensed;
+  font-size: 40px;
+
 }
+
 h6 {
   margin: 0;
   padding: 0;
@@ -49,6 +57,7 @@ h6 {
   font-weight: 600;
   font-size:16px;
 }
+
 img.logo {
   display: block;
   width:auto;
@@ -75,18 +84,17 @@ img.logo {
   font-weight: normal;
   letter-spacing: -.5px;
 }
+
 .topnav #title {
   float:left;
   font-weight: 600;
   padding: auto;
 }
 
-
 .topnav a:hover {
 background-color: inherit;
-color: blue;
+color: rgb(10,132,255);
 }
-
 .active {
 background-color: #4CAF50;
 color: white;
@@ -104,24 +112,28 @@ main {
   max-width: 1080px;
   width:100%;
   background-color: #fdfdfd;
+  min-height:100vh;
 }
 
 div.content {
   margin: 10px auto;
+  margin-bottom: 100px;
   max-width: 1200px;
   overflow: auto;
   background-color:#f3f3f3;
 }
+
 p {
   line-height: 1.6;
-  padding: 10px;
 }
+
 div.text {
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
   text-align: left;
   padding: 30px;
 }
+
 div.text a {
   color:blue;
 }
@@ -130,17 +142,22 @@ div.contentBox {
   background-size:cover;
   background-position: center;
   display: block;
+  background-repeat: no-repeat;
+  height:600px;
 }
+
 a {
   color:white;
   text-decoration: underline;
 }
+
 div.info {
   display: block;
   margin:0 auto;
   width: 100%;
   overflow: auto;
 }
+
 div.smallbox {
   border-radius: 5px;
   margin:10px auto;
@@ -157,15 +174,18 @@ div.smallbox {
   background-color: white;
   transition: 500ms ease-in-out all;
 }
+
 div.smallbox a {margin:0;margin-left: 0;}
+
 div.smallbox:hover {
   border-radius: 5px;
   display: inline-block;
-  color:black;
+  color:rgb(10,132,255);
   transition:.2s;
   box-shadow: none;
   border: 1px solid #f7f9f9;
 }
+
 div.medbox {
   border-radius: 5px;
   margin:10px auto;
@@ -179,7 +199,9 @@ div.medbox {
   vertical-align: middle;
   line-height: 80px;
 }
+
 div.medbox a {margin:0;margin-left: 0;}
+
 div.medbox:hover {
   box-shadow: 4px 6px 8px 0 rgba(0,0,0,0.24);
   border-radius: 5px;
@@ -189,24 +211,24 @@ div.medbox:hover {
   border: 1px solid lightblue;
   transition:.2s;
 }
+
 footer {
-  display: inline-block;
   color:black;
-  width:100%;
   font-size: 12px;
   letter-spacing: 3px;
-  margin: 0 auto;
   text-align: center;
-  bottom: 0;
-  width: 100%;
+  bottom:0;
 }
+
 footer a {
-  color:black;
+  color: #eaeaea;
   text-decoration:none;
 }
+
 footer a:hover {
-  color: blue;
+  color: rgb(10,132,255);
 }
+
 footer ul {
   vertical-align: top;
   display: inline-block;
@@ -217,16 +239,26 @@ footer ul {
   top:0px;
   color:black;
 }
+
+iframe {margin:0 auto;width:100%;}
+
 footer li {
   color:gray;
 }
+
 footer li a{
   color:gray;
   text-decoration: none;
 }
+
+ol{
+  max-width: 400px;
+}
+
 footer li a:hover{
   text-decoration: underline;
 }
+
 ul#inf {
   vertical-align: top;
   display: inline-block;
@@ -236,9 +268,13 @@ ul#inf {
   text-align: left;
   color:black;
 }
+
 li#inf {color:gray;font-size:}
+
 li#inf a {  color:gray;}
+
 li#inf a:hover {text-decoration: underline;color:gray;}
+
 .news {
 	max-width: 700px;
 	height: 260px;
@@ -257,6 +293,7 @@ button {
   margin: 4px 2px;
   display: none;
 }
+
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -268,6 +305,7 @@ button:hover {
   div.content {padding: 0;}
   #me {display: block;width:100%;border-radius: 0;margin:0;box-shadow:none;}
 }
+
 @media screen and (max-width: 600px) {
   .topnav a {
     display: none;
@@ -303,4 +341,21 @@ button:hover {
 }
 @media screen and (max-width: 1080px){
   div.smallbox {}
+}
+
+/*Dark mode*/
+@media (prefers-color-scheme: dark) {
+  body, html {background-color:#121212;}
+  header {background-color: #121212;border-bottom: .5px solid #171717;}
+  .topnav a {color: #eaeaea;}
+  .topnav a:hover {color: #03DAC5;}
+  .content {background-color: #03DAC5;box-shadow: 0 -2px 6px rgba(0, 0, 0, 1);}
+  main {background-color:#121212;color:#eaeaea;}
+  .content .text {background-color:#181818;color:#eaeaea;}
+  .contentBox {background-color:#181818;}
+  div.smallbox {background-color:black;color:#8cabd9;}
+  div.smallbox:hover {color: #03DAC5;}
+  footer a {color:#8cabd9;}
+  footer a:hover {color: #03DAC5;}
+  #me {-webkit-filter: brightness(0.60);filter: brightness(0.60);}
 }
