@@ -116,8 +116,8 @@ footer {
     background-size: cover;
     z-index: -10;
   }
-  h1 {color:#181818;}
-  main {color:#181818;}
+  h1 {color:#D1FEFF;}
+  main {color:#D1FEFF;}
   svg:hover {color: #03DAC5;}
   #me {filter: brightness(70%);}
 }
