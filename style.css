@@ -35,6 +35,8 @@ body, html {
   float:;
   margin:40px 0 0 20px;
 }
+#stein {
+}
 
 h1 {
   font-family: "Helvetica Neue", sans-serif;
@@ -337,6 +339,7 @@ button:hover {
   }
   header {
   }
+  #stein {width: 100%;}
 }
 @media screen and (max-width: 1080px){
   div.smallbox {}
