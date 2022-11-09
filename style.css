@@ -70,7 +70,7 @@ img.logo {
   overflow: hidden;
   background-color: inherit;
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: ;
   margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 800px;
+  max-width: 1200px;
   width:100%;
   background-color: #fdfdfd;
   min-height:100vh;
