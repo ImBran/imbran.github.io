@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false" ondragstart="return false" >
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Car-Mira's Deli Boothwyn Pennsylvania">
+    <meta name="keywords" content="Deli Hoagies Sandwiches">
+    <meta name="author" content="Brandon Marcelle, brandonmarcelle.com">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <title>Car-Mira's Italian Delicatessen</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="images/headerlogo.png" class="logo" id="smlogo"><img src="images/headerlogo.png" class="logo" id="logo"></a>
+      <div class="topnav" id="myTopnav" style="display:inline;float:right;">
+        <a href="javascript:void(0);" class="icon" onclick="mobileNavigation()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a id="number" href="tel:6104949799">610-494-9799</a>
+        <a href="menu.html">Menu</a>
+        <a><div id="currentStatus"></div></a>
+      </div>
+      <script>
+      function mobileNavigation() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <script src="./currentStatus.js" charset="utf-8"></script>
+      <script>window.onload = status;</script>
+    </div>
+    </nav>
+    <main>
+        <div class="content-wrapper" style="background-color:#ff6c6c;background-image:url('images/deli.jpg');">
+          <div class="inner-content-wrapper" style="padding:150px 0 150px 0;height:auto;">
+            <h1 id="headerText">Catering Menu</h1>
+            <br>
+            <a href="menu.pdf" class="buttonS1">Full Menu with Pricing</a>
+
+          </div>
+        </div>
+          <div class="content" style="color:black;">
+            <div class="">
+      <div class="menu_container">
+        <h2 class="menu_title">Catering Hoagies and Trays</h2>
+        <div class="menu_item">
+          <h3>Supreme Hoagie Trays</h3>
+          <p class="menu_description">Our <i>Supreme</i> hoagies cut and displayed on a tray with onion, pickles and peppers on the side.</p>
+        </div>
+        <div class="menu_item">
+          <h3>Hoagie Finger Sandwiches</h3>
+          <p class="menu_description">Your choice of our hoagies made on catering sized rolls prepared with onion, pickles and peppers on the side. </p>
+        </div>
+        <div class="menu_item">
+          <h3>Party Hoagies</h3>
+          <p class="menu_description">Special order 3 or 6 ft hoagie prepared with onion, pickles and peppers on the side. </p>
+        </div>
+  </div>
+    <div class="menu_container">
+      <h2 class="menu_title">Party Packs</h2>
+      <div class="menu_item">
+        <h3>Meatball</h3>
+        <p class="menu_description">24 Serving or 36 Serving of our 1oz meatballs <i>(2 per serving)</i>, red gravy and choice of catering rolls.</p>
+      </div>
+      <div class="menu_item">
+        <h3>Roast Beef</h3>
+        <p class="menu_description">24 Serving <i>(3.5 lbs)</i> or 36 Serving <i>(5 lbs)</i> of freshly sliced roast beef, brown gravy and choice of catering rolls.</p>
+      </div>
+      <div class="menu_item">
+        <h3>Roast Pork</h3>
+        <p class="menu_description">24 Serving <i>(3.5 lbs)</i> or 36 Serving <i>(5 lbs)</i> of freshly sliced roast pork, brown gravy and choice of catering rolls.</p>
+      </div>
+      <div class="menu_item">
+        <h3>Roast Turkey</h3>
+        <p class="menu_description">24 Serving <i>(3.5 lbs)</i> or 36 Serving <i>(5 lbs)</i> of freshly sliced roast turkey, brown gravy and choice of catering rolls.</p>
+      </div>
+    </div>
+    <div class="menu_container">
+      <h2 class="menu_title">Catering Trays</h2>
+      <div class="menu_item">
+        <h3>Deli Tray</h3>
+        <p class="menu_description">Your choice of 4 meats and 2 cheeses arranged on a tray including 4” catering sized kaiser rolls.</p>
+      </div>
+      <div class="menu_item">
+        <h3>Relish Tray</h3>
+        <p class="menu_description">An arrangement of freshly sliced lettuce, tomatoes, pickles hot and sweet peppers, black and green olives and onions (upon request).</p>
+      </div>
+      <div class="menu_item">
+        <h3>Pepperoni Tray</h3>
+        <p class="menu_description">Sliced pepperoni and cubed cheeses on a party platter, the perfect appetizer for any event.</p>
+      </div>
+      <div class="menu_item">
+        <h3>Antipasto Salad</h3>
+        <p class="menu_description">Fully Prepared Antipasto Salad with our famous Italian Delicacies.</p>
+      </div>
+    </div>
+    <div class="menu_container">
+      <h2 class="menu_title">Homemade Specialties</h2>
+      <p class="menu_description">      Trays of our delicious Homemade dishes packed cold, fully cooked, ready to heat and serve at your next event.</p>
+      <div class="menu_item">
+        <h3>Baked Ziti</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Cheese Lasagna</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Chicken Parmesan</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Stuffed Shells</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Chicken Scallopini</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Macaroni and Cheese</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Plain Shells</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Sausage Scallopini</h3>
+        <p class="menu_description"></p>
+      </div>
+      <div class="menu_item">
+        <h3>Sausage Peppers and Onions</h3>
+        <p class="menu_description"></p>
+      </div>
+    </div>
+        </div>
+        </div>
+      <div class="links">
+        <a href="https://www.facebook.com/CarMirasDeli/" target="_blank"><img class="links" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt=""></a>
+        <a href="" target="_blank"><img class="links" src="" alt=""></a>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="footer-wrapper">
+      <div id="footer-container">
+          <ul>Hours
+          <table>
+            <colgroup>
+              <col span="1" style="width: 50%;">
+              <col span="1" style="width: 50%;">
+            </colgroup>
+            <tr>
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Tu - Sat</td>
+              <td>8am-7pm</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>9am-3pm</td>
+            </tr>
+          </table>
+        </ul>
+      </div>
+      <div id="footer-container">
+        <ul>Location
+          <li>Willowbrook Shopping Center</li>
+          <li>3240 Chichester Avenue</li>
+          <li><a href="https://goo.gl/maps/L3sKB4PUo332">Directions</a></li>
+        </ul>
+      </div>
+    <div id="footer-container">
+      <ul><a href="menu.html">Menu</a>
+        <li><a href="papermenu.pdf">Paper Menu</a></li>
+      </ul>
+    </div>
+    <div id="footer-container">
+      <ul>Job Opportunities
+        <li><a href="apply.html">Apply now</a></li>
+      </ul>
+    </div>
+  </div>
+  <p style="font-size:small;margin:0 auto;text-align:center;">® 2022 Car-Mira's Inc All rights reserved</p>
+
+</footer>
+</html>

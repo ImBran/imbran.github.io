@@ -5,122 +5,201 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <meta name="description" content="Brandon Marcelle IT professional and  developer from Southeastern Pennsylvania">
-    <meta name="keywords" content="brandon marcelle, brandon, marcelle, it, IT, information technology, developer">
-    <meta name="author" content="Brandon Marcelle, brandonmarcelle.com, imbrankm">
-    <link rel="shortcut icon" type="image/png" href="https://brandonmarcelle.com/images/favicon.png"/>
-    <link rel="icon" href="https://brandonmarcelle.com/images/favicon.png" />
-
-
-    <title>Brandon Marcelle</title>
+    <meta name="description" content="Car-Mira's Deli Boothwyn Pennsylvania. Famous Hoagies and Catering since 1975.">
+    <meta name="keywords" content="Deli Hoagies Sandwiches">
+    <meta name="author" content="Brandon Marcelle, brandonmarcelle.com">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <title>Car-Mira's Italian Delicatessen</title>
   </head>
   <body>
+    <script src="./auth.js" charset="utf-8"></script>
+    <script src="./mobileNavigation.js" charset="utf-8"></script>
+    <script src="./currentStatus.js" charset="utf-8"></script>
+    <script>window.onload = status;</script>
     <header>
-      <div class="topnav" id="myTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="changeNavIcon()">
-        <h6>Brandon Marcelle</h6>
-        <i class="fa fa-navicon" id="mobileNavIcon" style="float:right;"></i>
-        </a>
-        <a href="index.html" id="title">Brandon Marcelle</a>
-        <a href="mailto:brandon@brandonmarcelle.com">Email</a>
-        <a href="https://github.com/ImBran">Github</a>
-        <a href="keybase.html">Keybase</a>
+      <div class="headeralert" style="display:none;"><a id="headerAlertClose"onclick="topAlert();removebt()"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a>
+        <div id="alert" style="display:;max-width:800px;margin:0 auto;text-align:center;">
+          <p style="text-align:center;padding:10px;">We will be open abbreviated hours on Saturdays during Summer.<br><br> Monday - Closed<br> Tue - Fri 8 AM - 7 PM<br> Sat - Sun 9 AM - 3 PM. <br><br>We are always hiring and looking for <i>fresh meat</i>... pun intended. <a href="apply.html">Apply here!</a></p>
+        </div>
       </div>
       <script>
-        function changeNavIcon() {
-          var x = document.getElementById("myTopnav");          //horizontal nav
-          var y = document.getElementById("mobileNavIcon");     //hamburger nav
-          if (x.className === "topnav") {                       //if the classname of nav is (horizontal)
-            x.className += " responsive";                       //change nav class to .responsive (vertical)
-            y.className += "fa fa-times";                       //change #mobileNavIcon class to X
-          } else {
-            x.className = "topnav";                             //change #myTopnav class to .topnav
-            y.className += "fa fa-navicon";                     //change #mobileNavIcon class to hamburger
-          }
+      function topAlert() {
+        var x = document.getElementById("alert");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "none";
         }
+      }
+      </script>
+      <script>
+      function removebt() {
+        var x = document.getElementById("headerAlertClose");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "none";
+        }
+      }
       </script>
     </header>
-    <main>
-      <div>
-        <img id="me" src="images/me.jpg">
+    <nav>
+      <a href="index.html"><img src="images/smallLogo.png" class="logo" id="smlogo"><img src="images/headerlogo.png" class="logo" id="logo"></a>
+      <div class="topnav" id="myTopnav" style="display:inline;float:right;">
+        <a href="javascript:void(0);" class="icon" onclick="mobileNavigation()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a id="number" href="tel:6104949799">610-494-9799</a>
+        <a href="menu.html">Menu</a>
+        <a href="#hours"><div id="currentStatus" style="display:inline;"></div></a>
       </div>
-      <div class="text">
-        <h1>Hi, I'm Brandon Marcelle.</h1>
-        <p><em>IT Professional and developer in Southeastern Pennsylvania.</em></p>
-        <p>Graduated from Pennsylvania Institute of Technology as the salutatorian in 2012 with a dual degree in Computer and Communications Technology and Systems Administration.</p>
-        <p>I enjoy drinking coffee and studying the complexities of the machines that we rely on everyday.</p>
+    </div>
+    </nav>
+    <main style="">
+        <div class="content-wrapper" style="">
+          <div class="inner-content-wrapper" style="padding:15vh 40px 15vh 40px;">
+            <h1 id="headerText" style="color:black;"></h1>
+            <h1 id="welcomeText" style="color:black;"><i>Car-Mira's Italian Deli.</i></h1>
+            <h2 style="color:black;font-size:12px;">Est. 1975</h2>
+            <a href="about.html" class="buttonS2">Our Story</a>
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------>
+
+              <div class="content-wrapper" style="padding:">
+                <div id="split" class="content-wrapper" style="">
+                    <div class="splitL-content-wrapper" style="height:600px;background:url('https://images.unsplash.com/photo-1611764197743-702a4d01463b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2565&q=80') no-repeat center left;background-size: cover;">
+                      <div class="center">
+                        <h1 id="headerText" style=""><a class="split_link" href="menu-catering.html">Catering</a></h1>
+                      </div>
+                    </div>
+                    <div class="splitR-content-wrapper" style="height:600px;background: url('https://images.unsplash.com/photo-1514516870926-20598973e480?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2247&q=80') no-repeat center left;background-size: cover;">
+                      <div class="center">
+                        <h1 id="headerText" style=""><a class="split_link" href="menu-dinners.html">Dinner Specials</a></h1>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+        <div class="content-wrapper" style="background-image:url('');">
+          <div class="inner-content-wrapper" style="padding:150px 0 150px 0;min-height:600px;">
+            <h1 id="headerText" style="color:black;">We're Always looking for fresh meat!</h1>
+            <h1 style="">Join our team today.</h1>
+            <p class="caption">We are always seeking hardworking individuals, seeking growth in a fast paced service environment. Full and Part time postitions available.</p>
+            <a href="apply.html" class="buttonS2">Apply Now!</a>
+
+          </div>
+        </div>
+
+        <div class="content-wrapper" style="padding:">
+          <div id="split" class="content-wrapper" style="">
+            <div class="splitL-content-wrapper" style="height:600px;background:url('images/cucinapro.jpg') no-repeat center left;background-size: cover;">
+                <div class="center">
+                  <h1 id="headerText" style="">Pizelle Irons Available Now!</h1>
+                </div>
+              </div>
+              <div class="splitR-content-wrapper" style="height:600px;background:url('images/barrel.jpg') no-repeat center left;background-size: cover;">
+                <div class="center">
+                  <h1 id="headerText" style="">Homemade Crostinis</h1>
+                </div>
+            </div>
+        </div>
       </div>
 
-      <div class="content">
-        <div class="contentBox" style="background-image: url('images/vh.PNG');">
+
+    <div class="content-wrapper" style="background-image:url('https://www.securedgenetworks.com/hubfs/how-to-get-started-using-wifi-rtls.jpg#keepProtocol');">
+      <div class="inner-content-wrapper" style="padding:150px 0 150px 0;height:auto;">
+        <h1 id="headerText" style="">BRING US ON THE ROAD!</h1>
+        <h1 style="color:white;">Wrap any of our hoagies to "travel" and take us with you.</h1>
+        <h1 style="color:black;padding-top:20px;font-weight:bold;"id="headerSubText">#travelwrap @carmirasdeli</h1>
+      </div>
+    </div>
+    <!--
+        <div id="location" class="content-wrapper" style="background-color:#ff6c6c;height:auto;">
+          <div class="inner-content-wrapper" style="padding:140px 0 140px 0;">
+            <img id="split_image" src="images/location.png" style=""><br>
+            <br>
+            <p class="caption" style="color:white;">Willowbrook Shopping center<br>3240 Chichester Avenue<br>Boothwyn PA 19061</p>
+            <a href="https://goo.gl/maps/L3sKB4PUo332" class="buttonS1">Get Directions</a>
+          </div>
         </div>
-        <div class="text">
-          <h2>Mr. VegHead</h2>
-          <h5><a id="veghead"></a>August 20, 2022 • Mr. VegHead - Project</h5>
-          <p>
-          Small project in the works for an animal advocacy Food Truck and apparel company, inspired by Pop Culture, Rock, and Heavy Metal designs.
-          <br><br>
-          HTML, CSS, Javascript, Digital and Print Media, Logos, Ebay, Printify
-        <br>
-        <br>
-          <a href="https://mrveghead.com">mrveghhead.com</a>
-          </p>
+      -->
+        <!--
+        <div id ="split" class="content-wrapper" style="display:none;">
+          <div class="inner-content-wrapper" style="padding:160px 0 160px 0;">
+          <div class="splitL-content-wrapper" style="">
+            <div class="center">
+              <p class="split-content">Support your favorite Deli on the go!</p>
+            </div>
+          </div>
+          <div class="splitR-content-wrapper" style="padding:5%;">
+            <div class="center">
+              <img id="split_image" src="images/merch.png" style="">
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="content">
-        <div class="contentBox" style="background-image: url('images/samples.PNG');">
-        </div>
-        <div class="text">
-          <h2>Web Templates</h2>
-          <h5><a id="IDTAGHERE"></a>January 07, 2019 • Templates</h5>
-          <p>
-          I have added a few simple external library indepedent web templates to my GitHub. They are simple to modify and host, good for landing pages or static information displaying pages.
-          </p>
+    -->
+      <!--
+      <div id="Employment"class="content-wrapper" style="height:auto;">
+        <div class="inner-content-wrapper" style="padding:140px 0 140px 0;">
+          <div class="image_container"></div>
+          <h1 style="color:black;">Employment Opportunities</h1>
+          <p class="caption">We are always seeking hardworking individuals, seeking growth in a fast paced service environment. Full and Part time postitions available.</p>
           <br>
-            <a href="https://github.com/ImBran/webtemplates">github.com/ImBran/webtemplates</a>
+          <a href="apply.html" class="buttonS2">Apply Now</a>
         </div>
       </div>
-
-
-
-      <div class="content">
-        <div class="contentBox" style="background-image: url('images/cm.PNG');">
-        </div>
-        <div class="text">
-          <h2>Car-Mira's Delicatessen</h2>
-          <h5><a id="veghead"></a>June 03, 2018 • Car-Mira's Deli - Production</h5>
-          <p>
-          In production site for a family owned and operated Italian Delicatessen in business for over 47 years. Site consists of external landing page, PDF menus, javasript powered hours of operation container, as well as internal use documents, database and spreadsheets for administrative and management. I also manage and support the internal Point of Sale devices, and onine ordering (not currently availble.)
-          <br><br>
-          HTML, CSS, Javascript, Digital and Print Media, Logos, Digital Displays
-        <br>
-        <br>
-          <a href="https://carmirasdeli.com">carmirasdeli.com</a>
-          </p>
-        </div>
+    -->
+      <div class="links">
+        <a href="https://www.facebook.com/CarMirasDeli/" target="_blank"><img class="links" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt=""></a>
+        <a href="" target="_blank"><img class="links" src="" alt=""></a>
       </div>
-
-      <div class="content">
-        <div class="contentBox" style="background-image: url('images/nl.PNG');">
-        </div>
-        <div class="text">
-          <h2>Northern Lights Tattoo</h2>
-          <h5><a id="veghead"></a>June 08, 2018 • Northern Lights Tattoo - Archive</h5>
-          <p>
-          Wordpress CMS Website and image hosting for Northern Lights Tattoo, Wilmington, DE. Managed for 3 years from 2006 - 2009 before the shop disbanded and owner retired.
-          <br><br>
-          HTML, CSS, Wordpress, CMS
-        <br>
-        <br>
-          DEFUNCT: northernlightstatoo.com
-          </p>
-        </div>
-      </div>
-
     </main>
-    <footer>
-      <a href="index.html">brandonmarcelle.com</a>
-    </footer>
   </body>
+  <footer>
+    <div class="footer-wrapper" id="hours">
+      <div id="footer-container">
+          <ul>Hours
+          <table>
+            <colgroup>
+              <col span="1" style="width: 50%;">
+              <col span="1" style="width: 50%;">
+            </colgroup>
+            <tr>
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Tu - Fri</td>
+              <td>8am-7pm</td>
+            </tr>
+            <tr>
+              <td>Sat - Sun</td>
+              <td>9am-3pm</td>
+            </tr>
+          </table>
+        </ul>
+      </div>
+      <div id="footer-container">
+        <ul>Location
+          <li>Willowbrook Shopping Center</li>
+          <li>3240 Chichester Avenue</li>
+          <li><a href="https://goo.gl/maps/L3sKB4PUo332">Directions</a></li>
+        </ul>
+      </div>
+    <div id="footer-container">
+      <ul><a href="menu.html">Menu</a>
+        <li><a href="menu.pdf">Menu PDF</a></li>
+        <li><a href="papermenu.pdf">Paper Menu PDF</a></li>
+      </ul>
+    </div>
+    <div id="footer-container">
+      <ul>Job Opportunities
+        <li><a href="apply.html">Apply now</a></li>
+      </ul>
+    </div>
+  </div>
+  <p style="font-size:small;margin:0 auto;text-align:center;">® 2022 Car-Mira's Inc All rights reserved</p>
+</footer>
 </html>
