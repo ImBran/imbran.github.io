@@ -5,6 +5,7 @@
   transition-timing-function: inherit;
   transition-delay: inherit;
 }
+
 header {
   border-bottom: .5px solid #e7e7e7;
   background-color: white;
