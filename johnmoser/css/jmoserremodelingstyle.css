@@ -14,7 +14,10 @@ a {
 .cd__main{
   display: block !important;
 }
-
+header {
+  padding: 10px;
+  text-align: center;
+}
 .et-hero-tabs,
 .et-slide {
   display: flex;
