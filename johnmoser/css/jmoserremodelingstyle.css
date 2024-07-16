@@ -18,7 +18,7 @@ header {
   padding: 10px;
   text-align: center;
 }
-.et-hero-tabs,
+
 .et-slide {
   display: flex;
   flex-direction: column;
@@ -29,12 +29,22 @@ header {
   background: #eee;
   text-align: center;
   padding: 0 2em;
+  padding-top: 100px;
 }
 #top {
-  background-color: #a5b8d6; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-
+  background-color: #a5b8d6;
 }
+.et-hero-tabs {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 0 2em;
+}
+
 .et-hero-tabs h1,
 .et-slide h1 {
   font-size: 2rem;
@@ -86,7 +96,7 @@ header {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66B1F1;
+  background: #175b97;
   transition: left 0.3s ease;
 }
 
