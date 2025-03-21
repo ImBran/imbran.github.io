@@ -27,7 +27,10 @@ body:before{
   transition-delay: inherit;
   font-family: sans-serif;
 }
-
+img.card {
+  display: inline-flex;
+  width:100%;
+}
 img.featured {
   margin: 20px auto;
   height: inherit;
@@ -63,10 +66,12 @@ main {
 }
 .content-post {
   width: 100%;
-  max-width: 1000px;
   height: auto;
-  margin: 80px auto;
-  padding:0 10px;
+  margin: 80px;
+  padding:10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .content-post-text {
   padding: 5px;
@@ -75,9 +80,10 @@ main {
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 800px;
   display: flex;
   height: auto;
+  margin: 0 auto;
 }
 .content-wrapper-menu {
   background-size:cover;
@@ -90,7 +96,7 @@ main {
 .inner-content-wrapper {
   margin:0 auto;
   text-align: center;
-
+  width; auto;
 }
 
 .inner-content-wrapper h1 {
